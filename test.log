@@ -1,0 +1,705 @@
+2024-05-27 23:33:00 [FINE] Executing: get [c4892d542c1d5c7db9264600e59e6789, get {url=https://simhadri07.github.io/studious-octo-fortnight/}]
+2024-05-27 23:33:00 [FINE] Executing request: (POST) /session/c4892d542c1d5c7db9264600e59e6789/url
+2024-05-27 23:33:00 [FINE] [Forwarding get on session c4892d542c1d5c7db9264600e59e6789 to remote] [5s 179ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST,
+	 proxy=null
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Exchange checkFor407: all clear
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 180ms] HttpClientImpl(3) next timeout: 180000
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 180ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 181ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Http1Exchange Sending headers only
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 181ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e queue.isEmpty: true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e, demand=1, canRequestMore=true, queue.isEmpty=true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Exchange response created in advance
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Exchange SocketTube(3) connecting flows
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) connecting flows
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@4e568e3c
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 183ms] Http1Exchange requestAction.headers
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) next timeout: 179997
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) resuming read event
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 183ms] Http1Exchange setting outgoing with headers
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=303 cap=303]], throwable=null]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next timeout: 179995
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next timeout: 179995
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange initiating completion of headersSentCF
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Exchange checkFor407: all clear
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Exchange sendRequestBody
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange sendBodyAsync
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange bodySubscriber is class jdk.internal.net.http.Http1Request$FixedContentSubscriber
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange requesting more request body from the subscriber
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] jdk.internal.net.http.Http1Request@76ebbb Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@eb1041d
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] jdk.internal.net.http.Http1Request@76ebbb onNext
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=88 cap=16384]], throwable=null]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] jdk.internal.net.http.Http1Request@76ebbb onComplete
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] Http1Publisher(SocketTube(3)) onNext with 303 bytes
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] SocketTube(3) trying to write: 303
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) wrote: 303
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] Http1Exchange requesting more request body from the subscriber
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] jdk.internal.net.http.Http1Request@76ebbb Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@eb1041d
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Publisher(SocketTube(3)) onNext with 88 bytes
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) trying to write: 88
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) wrote: 88
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Exchange initiating completion of bodySentCF
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Exchange sendBodyAsync completed successfully
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Exchange reading headers
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) First time around
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@4496f6d
+2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 688ms] SocketTube(3) read bytes: 122
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] SocketTube(3) resuming read event
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] HttpClientImpl(3) next timeout: 179491
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 690ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 690ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Exchange getResponseAsync completed successfully
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458 queue.isEmpty: false
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1AsyncReceiver(SocketTube(3)) cleared
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) connecting flows
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 695ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 695ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) resuming read event
+2024-05-27 23:33:01 [FINE] Ending request (POST) /session/c4892d542c1d5c7db9264600e59e6789/url in 517ms
+2024-05-27 23:33:01 [FINE] Executed: get (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 696ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] HttpClientImpl(3) next expired: 1199673
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 702ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 702ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] Executing: get [c4892d542c1d5c7db9264600e59e6789, get {url=https://www.google.com}]
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) next expired: 1199669
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] Executing request: (POST) /session/c4892d542c1d5c7db9264600e59e6789/url
+2024-05-27 23:33:01 [FINE] [Forwarding get on session c4892d542c1d5c7db9264600e59e6789 to remote] [5s 706ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 707ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST,
+	 proxy=null
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 707ms] HttpClientImpl(3) next timeout: 180000
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 708ms] HttpClientImpl(3) next expired: 1199665
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 708ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 708ms] Exchange checkFor407: all clear
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 708ms] Http1Exchange Sending headers only
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49 queue.isEmpty: true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49, demand=1, canRequestMore=true, queue.isEmpty=true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1Exchange response created in advance
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] Http1Exchange SocketTube(3) connecting flows
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) connecting flows
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 710ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 710ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@17a5ded3
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] Http1Exchange requestAction.headers
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 711ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] HttpClientImpl(3) next timeout: 179996
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Exchange setting outgoing with headers
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=303 cap=303]], throwable=null]
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 713ms] SocketTube(3) resuming read event
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) next timeout: 179994
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 713ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange initiating completion of headersSentCF
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) next timeout: 179993
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Exchange checkFor407: all clear
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Exchange sendRequestBody
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange sendBodyAsync
+2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange bodySubscriber is class jdk.internal.net.http.Http1Request$FixedContentSubscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange requesting more request body from the subscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] jdk.internal.net.http.Http1Request@21b8a2f0 Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@15d7d0d7
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] jdk.internal.net.http.Http1Request@21b8a2f0 onNext
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=47 cap=16384]], throwable=null]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] jdk.internal.net.http.Http1Request@21b8a2f0 onComplete
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Publisher(SocketTube(3)) onNext with 303 bytes
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) trying to write: 303
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) wrote: 303
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Exchange requesting more request body from the subscriber
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] jdk.internal.net.http.Http1Request@21b8a2f0 Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@15d7d0d7
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Publisher(SocketTube(3)) onNext with 47 bytes
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) trying to write: 47
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) wrote: 47
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange initiating completion of bodySentCF
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange sendBodyAsync completed successfully
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange reading headers
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) First time around
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@6c3d0f74
+2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] SocketTube(3) read bytes: 122
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) next timeout: 177739
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 969ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Exchange getResponseAsync completed successfully
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4 queue.isEmpty: false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1AsyncReceiver(SocketTube(3)) cleared
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 974ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 974ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:03 [FINE] Ending request (POST) /session/c4892d542c1d5c7db9264600e59e6789/url in 2,268ms
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 974ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 974ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 975ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 976ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 976ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:03 [FINE] Executed: get (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) next expired: 1199396
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 976ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 978ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) next expired: 1199395
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 978ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] Executing: screenshot [c4892d542c1d5c7db9264600e59e6789, screenshot {}]
+2024-05-27 23:33:03 [FINE] Executing request: (GET) /session/c4892d542c1d5c7db9264600e59e6789/screenshot
+2024-05-27 23:33:03 [FINE] [Forwarding screenshot on session c4892d542c1d5c7db9264600e59e6789 to remote] [7s 990ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/screenshot GET
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 991ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/screenshot GET,
+	 proxy=null
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 992ms] HttpClientImpl(3) next timeout: 179999
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 993ms] HttpClientImpl(3) next expired: 1199381
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 993ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 993ms] Exchange checkFor407: all clear
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 994ms] Http1Exchange Sending headers only
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@2c48f554 queue.isEmpty: true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@2c48f554, demand=1, canRequestMore=true, queue.isEmpty=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1Exchange response created in advance
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1Exchange SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 997ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 997ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@30c5fb99
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 998ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 998ms] Http1Exchange requestAction.headers
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) next timeout: 179992
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) next timeout: 179991
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 1ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 1ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 2ms] Http1Publisher(SocketTube(3)) hasOutgoing = false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 2ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Exchange setting outgoing with headers
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 2ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=333 cap=333]], throwable=null]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Exchange initiating completion of headersSentCF
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 2ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 3ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Publisher(SocketTube(3)) onNext with 333 bytes
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] SocketTube(3) trying to write: 333
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) next timeout: 179988
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) wrote: 333
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Publisher(SocketTube(3)) hasOutgoing = false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Exchange checkFor407: all clear
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Exchange sendRequestBody
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Exchange sendBodyAsync
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Exchange bodySubscriber is null
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange initiating completion of bodySentCF
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@160dc799
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange sendBodyAsync completed successfully
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange reading headers
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 7ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) First time around
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 7ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) next timeout: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) read bytes: 47741
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 14973 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Got 14973 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14973 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next timeout: 179677
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 14973/14973 bytes to header parser
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=111
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] SocketTube(3) no more demand for reading
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] SocketTube(3) leaving read() loop with no demand Reading: [ops=0, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Exchange getResponseAsync completed successfully
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next timeout: 179676
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a queue.isEmpty: false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14862
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=76052, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Got 14862 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14862 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 14862/14973 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14862 bytes (76052 remaining / 76052)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775806
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (61190 remaining / 76052)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775805
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (44806 remaining / 76052)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=false, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: no need to request more
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 316ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 316ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) read bytes: 28422
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Putting 12038 bytes into the queue
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (28422 remaining / 76052)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Got 12038 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775803
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 12038 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 12038/12038 bytes to body parser
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 12038 bytes (12038 remaining / 76052)
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) cleared
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) next expired: 1199054
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] Ending request (GET) /session/c4892d542c1d5c7db9264600e59e6789/screenshot in 335ms
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) next expired: 1199053
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] Executed: screenshot (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: *screenshot response suppressed*)
+2024-05-27 23:33:03 [FINE] Closing websocket
+2024-05-27 23:33:03 [FINE] Sending close message, statusCode 1,000, reason: WebDriver closing socket
+2024-05-27 23:33:03 [FINE] [main] [8s 328ms] [WebSocket] RawChannelTube(SocketTube(4)) register write event
+2024-05-27 23:33:03 [FINE] [main] [8s 328ms] [WebSocket] RawChannelTube(SocketTube(4)) write: writing 32
+2024-05-27 23:33:03 [FINE] [main] [8s 328ms] SocketTube(4) trying to write: 32
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) wrote: 32
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) write: requesting more...
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] [WebSocket] RawChannelTube(SocketTube(4)) WriteSubscription::request 1
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [main] [8s 329ms] [WebSocket] RawChannelTube(SocketTube(4)) shutdownOutput
+2024-05-27 23:33:03 [FINE] Websocket response to org.openqa.selenium.remote.http.CloseMessage@781a9412 read in 1ms
+2024-05-27 23:33:03 [FINE] Closing websocket
+2024-05-27 23:33:03 [FINE] Output is closed, not sending close message
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 329ms] SocketTube(4) read bytes: 4
+2024-05-27 23:33:03 [FINE] Executing: quit [c4892d542c1d5c7db9264600e59e6789, quit {}]
+2024-05-27 23:33:03 [FINE] Executing request: (DELETE) /session/c4892d542c1d5c7db9264600e59e6789
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) ReadSubscriber::onNext 4 bytes
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) ReadSubscriber: handling event
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) read
+2024-05-27 23:33:03 [FINE] [Driver Command Executor] [8s 330ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789 DELETE
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) read: 4
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] SocketTube(4) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789 DELETE,
+	 proxy=null
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) next timeout: 179999
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next timeout: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) next expired: 1199042
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) no more demand for reading
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Exchange checkFor407: all clear
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) leaving read() loop with no demand Reading: [ops=0, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1Exchange Sending headers only
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next timeout: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec queue.isEmpty: true
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next expired: 0
+2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec, demand=1, canRequestMore=true, queue.isEmpty=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange response created in advance
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) connecting flows
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@4a18b4d3
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange requestAction.headers
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) next timeout: 179998
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange setting outgoing with headers
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=300 cap=300]], throwable=null]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] SocketTube(3) resuming read event
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next timeout: 179997
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) WriteTask
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange initiating completion of headersSentCF
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next timeout: 179997
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Exchange checkFor407: all clear
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Exchange sendRequestBody
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange sendBodyAsync
+2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange bodySubscriber is null
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) onNext with 300 bytes
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) trying to write: 300
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) wrote: 300
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange initiating completion of bodySentCF
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange sendBodyAsync completed successfully
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange reading headers
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) First time around
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@7331ffc4
+2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) read bytes: 122
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) resuming read event
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) next timeout: 179945
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Exchange getResponseAsync completed successfully
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522 queue.isEmpty: false
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] Http1AsyncReceiver(SocketTube(3)) cleared
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] SocketTube(3) connecting flows
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) read publisher got subscriber
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) registering subscribe event
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) subscribed for writing
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) write: resetting demand to 0
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 389ms] SocketTube(3) subscribe event raised
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) write: registering startSubscription event
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) read demand reset to 0
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) calling onSubscribe
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) got some demand for reading
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) resuming read event
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) onSubscribe called
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) pending subscriber subscribed
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next expired: 1199983
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) write: starting subscription
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) write: offloading requestMore
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:04 [FINE] Ending request (DELETE) /session/c4892d542c1d5c7db9264600e59e6789 in 61ms
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] SocketTube(3) write: requesting more...
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 391ms] HttpClientImpl(3) next expired: 1199982
+2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 391ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 391ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:04 [FINE] Waiting for http://localhost:29474/shutdown
+2024-05-27 23:33:04 [FINE] Polling http://localhost:29474/shutdown
+2024-05-27 23:33:04 [FINE] sun.net.www.MessageHeader@4a974c25 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/17.0.11}{Host: localhost:29474}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+2024-05-27 23:33:04 [FINE] sun.net.www.MessageHeader@120d6e063 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) got read EOF
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) pausing read event
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) completing subscriber
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] ConnectionPool(3) SocketTube(3) : ConnectionPool.cleanup(null)
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 407ms] PlainHttpConnection(SocketTube(3)) Closing channel: channel registered with selector, key.interestOps=1, sa.interestOps=1
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 409ms] SocketTube(3) signal read error: java.io.IOException: connection closed locally
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) got read error: java.io.IOException: connection closed locally
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) Stopping read scheduler
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) leaving read() loop after EOF:  Reading: [ops=0, demand=0, stopped=true], Writing: [ops=0, demand=1]
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) Read scheduler stopped
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) ReadEvent abort: java.io.IOException: java.nio.channels.CancelledKeyException
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) signalError to jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription@3b43da48 (java.io.IOException: java.nio.channels.CancelledKeyException)
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) signal read error: java.io.IOException: java.nio.channels.CancelledKeyException
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) next timeout: 0
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) next expired: 0
+2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) Next deadline is 3000
+2024-05-27 23:33:04 [FINE] completed to copy the output of process 4526
+2024-05-27 23:33:04 [FINE] Polling http://localhost:29474/shutdown
+2024-05-27 23:33:04 [FINE] Executed: quit (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)

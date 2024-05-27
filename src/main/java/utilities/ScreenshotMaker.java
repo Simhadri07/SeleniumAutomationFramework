@@ -12,7 +12,7 @@ public class ScreenshotMaker {
     public static void takeScreenshot(WebDriver driver, String screenshotName) {
         try {
             File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             FileUtils.copyFile(screenshotFile, new File("C:/automtionBestPractices/target/screenshots/" + screenshotName + ".png"));
+             FileUtils.copyFile(screenshotFile, new File("target/screenshots/" + screenshotName + ".png"));
             System.out.println("Screenshot captured: " + screenshotName);
         } catch (IOException e) {
             System.err.println("Failed to capture screenshot: " + e.getMessage());
@@ -21,7 +21,7 @@ public class ScreenshotMaker {
 
     public static void clearScreenshots() {
         try {
-            File directory = new File("C:/automtionBestPractices/target/screenshots");
+            File directory = new File("target/screenshots");
             if (directory.exists()) {
                 File[] files = directory.listFiles();
                 if (files != null) {
