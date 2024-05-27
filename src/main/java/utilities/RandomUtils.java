@@ -2,10 +2,10 @@ package utilities;
 
 import java.security.SecureRandom;
 
-public class JavaUtils {
+public class RandomUtils {
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-    public static String generateRandomString(int length) {
+    public static String generateRandom_AlphaNumeric_String(int length) {
         StringBuilder sb = new StringBuilder(length);
         SecureRandom random = new SecureRandom();
 
@@ -18,3 +18,4 @@ public class JavaUtils {
         return sb.toString();
     }
 }
+

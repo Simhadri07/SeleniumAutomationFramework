@@ -1,5 +1,6 @@
 import AbstractClasses.xpathMaker;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 public class SeleniumThings extends BaseTest {
 
@@ -7,6 +8,10 @@ public class SeleniumThings extends BaseTest {
 
     public void clickButton(By by) {
         driver.findElement(by).click();
+    }
+
+    public String getText(By by) {
+       return driver.findElement(by).getText();
     }
 /**
  * Waits

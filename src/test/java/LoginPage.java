@@ -10,21 +10,16 @@ public class LoginPage {
 
     @FindBy
     private By usernameInput = By.id("username");
-
-
+    @FindBy
     private By passwordInput = By.id("password");
-
-
+    @FindBy
     private By loginButton = By.xpath("//*[text()='Login']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public void LaunchURL(enumFactory.EWebsiteName centerName){
-        String URL = JSONUtils.getValueFromJson("src/main/resources/URLStudio.json", centerName.toString());
-        driver.get(URL);
-    }
+
 
     public void enterUsername(String username) {
         driver.findElement(usernameInput).sendKeys(username);
