@@ -38,7 +38,7 @@ public class LoginPage {
         driver.findElement(loginButton).click();
     }
 
-    public void LoginForAllWebSites(){
+    public void LoginFunction(){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername(propsUtils.getUsername());
         loginPage.enterPassword(propsUtils.getPassword());

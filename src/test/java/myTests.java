@@ -12,6 +12,6 @@ public class myTests extends  BaseTest {
     @Test
     public void loginTest() throws Exception {
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.LoginForAllWebSites();
+        loginPage.LoginFunction();
     }
 }

@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 public class propsUtils {
-        private static final String CREDENTIALS_FILE = "./main/resources/credentials.properties";
+        private static final String CREDENTIALS_FILE = "src/main/resources/credentials.properties";
         private static final Properties properties;
 
         static {
