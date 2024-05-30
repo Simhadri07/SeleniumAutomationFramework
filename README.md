@@ -51,7 +51,7 @@ We welcome contributions from the community to improve Falcon-X. Whether it's re
 This project is licensed under the [APACHE 2.0](LICENSE), allowing for unrestricted use, modification, and distribution.
 
 ## Contact
-Have questions, suggestions, or feedback? Feel free to reach out to us at [schatla36@gmail.com](mailto:schatla36@gmail.com) or open an issue on GitHub.
+Have questions, suggestions, or feedback? Feel free to reach out to us at [schatla36@gmail.com](mailto:schatla36@gmail.com) or create Pull Request on GitHub.
 
 ---
 
