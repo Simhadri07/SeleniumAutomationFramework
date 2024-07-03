@@ -6,17 +6,17 @@ import utilities.LogManagerUtils;
 import utilities.ScreenshotMaker;
 import utilities.enumFactory;
 
-public class BaseTest extends DriverFactory{
+import static utilities.LogManagerUtils.configure;
 
-    LogManagerUtils logManagerUtils = new LogManagerUtils();
+public class BaseTest extends DriverFactory{
 
     @BeforeMethod
     public void BrowserSetup() {
         LogManagerUtils.clearLogs();
         ScreenshotMaker.clearScreenshots();
-            driver = new DriverFactory().getDriver(enumFactory.EBrowserName.CHROME);
+        driver = getDriver(enumFactory.EBrowserName.CHROME);
         driver.manage().window().maximize();
-        LogManagerUtils.configure(false);
+        configure(false);
        new DriverFactory().LaunchURL(enumFactory.EWebsiteName.demoURL);
     }
 
