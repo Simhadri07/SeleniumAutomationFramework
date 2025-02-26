@@ -16,30 +16,29 @@ public class DriverFactory {
     LogManagerUtils logManagerUtils = new LogManagerUtils();
 
     public static WebDriver getDriver(enumFactory.EBrowserName browser) {
-        switch (browser) {
-            case CHROME:
-                WebDriverManager.chromedriver().setup();
-                ChromeOptions options = new ChromeOptions();
-//                options.setBinary("/usr/bin/google-chrome");
-//                options.addArguments("--headless");
-                options.addArguments("--no-sandbox");
-                options.addArguments("--disable-infobars");
-                driver = new ChromeDriver(options);
-                break;
-            case FIREFOX:
-                WebDriverManager.firefoxdriver().clearDriverCache().setup();
-                driver = new FirefoxDriver();
-                break;
-            case EDGE:
-                WebDriverManager.edgedriver().clearDriverCache().setup();
-                driver = new EdgeDriver();
-                break;
-            default:
-                throw new IllegalArgumentException("Unsupported browser: " + browser);
-        }
-        return driver;
+    switch (browser) {
+        case CHROME:
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-infobars");
+            options.addArguments("user-data-dir=/path/to/your/custom/profile");
+            driver = new ChromeDriver(options);
+            break;
+        case FIREFOX:
+            WebDriverManager.firefoxdriver().clearDriverCache().setup();
+            driver = new FirefoxDriver();
+            break;
+        case EDGE:
+            WebDriverManager.edgedriver().clearDriverCache().setup();
+            driver = new EdgeDriver();
+            break;
+        default:
+            throw new IllegalArgumentException("Unsupported browser: " + browser);
     }
-
+    return driver;
+}
+    
     public void LaunchURL(enumFactory.EWebsiteName eWebsiteURL){
         String URL = JSONUtils.getValueFromJson("src/main/resources/URLStudio.json", eWebsiteURL.toString());
         driver.get(URL);
