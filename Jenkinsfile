@@ -1,7 +1,14 @@
+```groovy
 pipeline {
     agent any
 
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+    }
+
     parameters {
+
         string(
             name: 'branch',
             defaultValue: 'develop',
@@ -11,42 +18,81 @@ pipeline {
         booleanParam(
             name: 'runConfig',
             defaultValue: false,
-            description: 'Load latest pipeline configuration changes'
+            description: 'Load and display the latest test configuration'
         )
 
         choice(
             name: 'browser',
-            choices: ['chrome', 'firefox', 'edge'],
+            choices: [
+                'chrome',
+                'firefox',
+                'edge'
+            ],
             description: 'Browser for Selenium execution'
         )
 
         choice(
             name: 'environment',
-            choices: ['qa', 'staging', 'prod'],
+            choices: [
+                'qa',
+                'staging',
+                'prod'
+            ],
             description: 'Test environment'
         )
     }
 
     stages {
+
         stage('Checkout') {
             steps {
+                echo "========================================"
+                echo "CHECKOUT"
+                echo "========================================"
+
+                echo "Branch      : ${params.branch}"
+                echo "Run Config  : ${params.runConfig}"
+                echo "Browser     : ${params.browser}"
+                echo "Environment : ${params.environment}"
+
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: "*/${params.branch}"]],
+
+                    branches: [[
+                        name: "*/${params.branch}"
+                    ]],
+
                     userRemoteConfigs: [[
                         credentialsId: 'GitHub-Credentials',
                         url: 'https://github.com/Simhadri07/SeleniumAutomationFramework.git'
                     ]]
                 ])
+
+                bat 'git log -1 --oneline'
             }
         }
 
         stage('Environment Check') {
             steps {
+                echo "========================================"
+                echo "ENVIRONMENT CHECK"
+                echo "========================================"
+
                 bat '''
+                    echo ===== JAVA =====
                     java -version
+
+                    echo.
+                    echo ===== MAVEN =====
                     mvn -version
+
+                    echo.
+                    echo ===== GIT =====
                     git --version
+
+                    echo.
+                    echo ===== WORKSPACE =====
+                    echo %WORKSPACE%
                 '''
             }
         }
@@ -54,19 +100,39 @@ pipeline {
         stage('Load Config') {
             when {
                 expression {
-                    params.runConfig
+                    return params.runConfig
                 }
             }
+
             steps {
+                echo "========================================"
+                echo "LOAD CONFIG"
+                echo "========================================"
+
                 bat '''
+                    echo ===== COMMIT =====
                     git log -1 --oneline
-                    dir /s /b *.xml *.properties *.json
+
+                    echo.
+                    echo ===== TEST CONFIGURATION =====
+                    dir /s /b src\\test\\resources\\*.xml
+
+                    echo.
+                    echo ===== CONFIG FILES =====
+                    dir /s /b src\\test\\resources\\*.properties
                 '''
             }
         }
 
         stage('Run Selenium Tests') {
             steps {
+                echo "========================================"
+                echo "SELENIUM TESTNG"
+                echo "========================================"
+
+                echo "Browser     : ${params.browser}"
+                echo "Environment : ${params.environment}"
+
                 withCredentials([
                     usernamePassword(
                         credentialsId: 'selenium-test-credentials',
@@ -74,33 +140,49 @@ pipeline {
                         passwordVariable: 'TEST_PASSWORD'
                     )
                 ]) {
-                    bat """
-                        mvn -B clean test ^
-                        -Dbrowser=${params.browser} ^
-                        -Denvironment=${params.environment}
-                    """
+
+                    bat '''
+                        mvn -B --no-transfer-progress clean test ^
+                        -Dbrowser=%browser% ^
+                        -Denvironment=%environment%
+                    '''
                 }
             }
         }
 
         stage('Test Reports') {
             steps {
-                echo 'Test reports are published in the pipeline post actions.'
+                echo "========================================"
+                echo "TEST REPORTS"
+                echo "========================================"
+
+                echo "Surefire reports will be published in post actions."
             }
         }
     }
 
     post {
+
         always {
-            echo 'Selenium pipeline completed.'
+            echo "========================================"
+            echo "PUBLISHING RESULTS"
+            echo "========================================"
+
             junit(
                 allowEmptyResults: true,
                 testResults: '**/target/surefire-reports/*.xml'
             )
+
             archiveArtifacts(
-                artifacts: '**/target/surefire-reports/**/*,**/target/extent-reports/**/*,**/target/logs/**/*,**/target/screenshots/**/*',
+                artifacts: '''
+                    **/target/surefire-reports/**/*,
+                    **/target/extent-reports/**/*,
+                    **/target/logs/**/*,
+                    **/target/screenshots/**/*
+                ''',
                 allowEmptyArchive: true
             )
+
             publishHTML(target: [
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
@@ -110,11 +192,14 @@ pipeline {
                 reportName: 'Extent Test Report'
             ])
         }
+
         success {
-            echo 'Selenium automation PASSED.'
+            echo "Selenium automation PASSED."
         }
+
         failure {
-            echo 'Selenium automation FAILED.'
+            echo "Selenium automation FAILED."
         }
     }
 }
+```
