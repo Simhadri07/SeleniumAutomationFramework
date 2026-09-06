@@ -6,16 +6,22 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 
 public class ScreenshotMaker {
 
-    public static void takeScreenshot(WebDriver driver, String screenshotName) {
+    public static String takeScreenshot(WebDriver driver, String screenshotName) {
         try {
+            File directory = new File("target/screenshots");
+            Files.createDirectories(directory.toPath());
             File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-             FileUtils.copyFile(screenshotFile, new File("target/screenshots/" + screenshotName + ".png"));
-            System.out.println("Screenshot captured: " + screenshotName);
-        } catch (IOException e) {
-            System.err.println("Failed to capture screenshot: " + e.getMessage());
+            File destination = new File(directory, screenshotName + ".png");
+            FileUtils.copyFile(screenshotFile, destination);
+            LogManagerUtils.logMsg("Screenshot captured: " + destination.getPath());
+            return destination.getAbsolutePath();
+        } catch (IOException | RuntimeException e) {
+            LogManagerUtils.logError("Failed to capture screenshot: " + screenshotName, e);
+            return null;
         }
     }
 
@@ -28,13 +34,13 @@ public class ScreenshotMaker {
                     for (File file : files) {
                         if (file.isFile()) {
                             file.delete();
-                            System.out.println("Deleted file: " + file.getName());
+                            LogManagerUtils.logMsg("Deleted screenshot: " + file.getName());
                         }
                     }
                 }
             }
-        } catch (Exception e) {
-            System.err.println("Failed to clear screenshots: " + e.getMessage());
+        } catch (RuntimeException e) {
+            LogManagerUtils.logError("Failed to clear screenshots", e);
         }
     }
 }

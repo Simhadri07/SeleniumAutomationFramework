@@ -1,705 +1,421 @@
-2024-05-27 23:33:00 [FINE] Executing: get [c4892d542c1d5c7db9264600e59e6789, get {url=https://simhadri07.github.io/studious-octo-fortnight/}]
-2024-05-27 23:33:00 [FINE] Executing request: (POST) /session/c4892d542c1d5c7db9264600e59e6789/url
-2024-05-27 23:33:00 [FINE] [Forwarding get on session c4892d542c1d5c7db9264600e59e6789 to remote] [5s 179ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST,
-	 proxy=null
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Exchange checkFor407: all clear
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 180ms] HttpClientImpl(3) next timeout: 180000
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 180ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 181ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 180ms] Http1Exchange Sending headers only
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 181ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e queue.isEmpty: true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e, demand=1, canRequestMore=true, queue.isEmpty=true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Exchange response created in advance
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Exchange SocketTube(3) connecting flows
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) connecting flows
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@4e568e3c
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 182ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 182ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 183ms] Http1Exchange requestAction.headers
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) next timeout: 179997
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 183ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) resuming read event
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-0] [5s 184ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 183ms] Http1Exchange setting outgoing with headers
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=303 cap=303]], throwable=null]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-1] [5s 184ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next timeout: 179995
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next timeout: 179995
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:00 [FINE] [HttpClient-3-SelectorManager] [5s 185ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 185ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange initiating completion of headersSentCF
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Exchange checkFor407: all clear
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Exchange sendRequestBody
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange sendBodyAsync
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange bodySubscriber is class jdk.internal.net.http.Http1Request$FixedContentSubscriber
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange requesting more request body from the subscriber
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] jdk.internal.net.http.Http1Request@76ebbb Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@eb1041d
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] jdk.internal.net.http.Http1Request@76ebbb onNext
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 186ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=88 cap=16384]], throwable=null]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] jdk.internal.net.http.Http1Request@76ebbb onComplete
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] Http1Publisher(SocketTube(3)) onNext with 303 bytes
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 187ms] SocketTube(3) trying to write: 303
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) wrote: 303
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 188ms] Http1Exchange requesting more request body from the subscriber
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] jdk.internal.net.http.Http1Request@76ebbb Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@eb1041d
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Publisher(SocketTube(3)) onNext with 88 bytes
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) trying to write: 88
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) wrote: 88
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 189ms] Http1Exchange initiating completion of bodySentCF
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Exchange sendBodyAsync completed successfully
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Exchange reading headers
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) First time around
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@4496f6d
-2024-05-27 23:33:00 [FINE] [JdkHttpClient-2-2] [5s 190ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 688ms] SocketTube(3) read bytes: 122
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] SocketTube(3) resuming read event
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 689ms] HttpClientImpl(3) next timeout: 179491
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 689ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 690ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 690ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@10c8bf0e
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 690ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Exchange getResponseAsync completed successfully
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 691ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458 queue.isEmpty: false
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 692ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@414be180/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@47dc9458
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1AsyncReceiver(SocketTube(3)) cleared
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 693ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) connecting flows
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 694ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 695ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 695ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 695ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) resuming read event
-2024-05-27 23:33:01 [FINE] Ending request (POST) /session/c4892d542c1d5c7db9264600e59e6789/url in 517ms
-2024-05-27 23:33:01 [FINE] Executed: get (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 696ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 696ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1Response(id=18, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 700ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 700ms] HttpClientImpl(3) next expired: 1199673
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 701ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 702ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 702ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] Executing: get [c4892d542c1d5c7db9264600e59e6789, get {url=https://www.google.com}]
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) next expired: 1199669
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 704ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] Executing request: (POST) /session/c4892d542c1d5c7db9264600e59e6789/url
-2024-05-27 23:33:01 [FINE] [Forwarding get on session c4892d542c1d5c7db9264600e59e6789 to remote] [5s 706ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 707ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/url POST,
-	 proxy=null
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 707ms] HttpClientImpl(3) next timeout: 180000
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 708ms] HttpClientImpl(3) next expired: 1199665
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 708ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 708ms] Exchange checkFor407: all clear
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 708ms] Http1Exchange Sending headers only
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49 queue.isEmpty: true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49, demand=1, canRequestMore=true, queue.isEmpty=true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 709ms] Http1Exchange response created in advance
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] Http1Exchange SocketTube(3) connecting flows
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) connecting flows
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 710ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 710ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 710ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@17a5ded3
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 711ms] Http1Exchange requestAction.headers
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 711ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 711ms] HttpClientImpl(3) next timeout: 179996
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Exchange setting outgoing with headers
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=303 cap=303]], throwable=null]
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 712ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 712ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-2] [5s 712ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 713ms] SocketTube(3) resuming read event
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) next timeout: 179994
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-1] [5s 713ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 713ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 713ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange initiating completion of headersSentCF
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) next timeout: 179993
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Exchange checkFor407: all clear
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Exchange sendRequestBody
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange sendBodyAsync
-2024-05-27 23:33:01 [FINE] [HttpClient-3-SelectorManager] [5s 714ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange bodySubscriber is class jdk.internal.net.http.Http1Request$FixedContentSubscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange requesting more request body from the subscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] jdk.internal.net.http.Http1Request@21b8a2f0 Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@15d7d0d7
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] jdk.internal.net.http.Http1Request@21b8a2f0 onNext
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 714ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=47 cap=16384]], throwable=null]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] jdk.internal.net.http.Http1Request@21b8a2f0 onComplete
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Publisher(SocketTube(3)) onNext with 303 bytes
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) trying to write: 303
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) wrote: 303
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 715ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Exchange requesting more request body from the subscriber
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] jdk.internal.net.http.Http1Request@21b8a2f0 Http1BodySubscriber requesting 1, from jdk.internal.net.http.PullPublisher$Subscription@15d7d0d7
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Publisher(SocketTube(3)) onNext with 47 bytes
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) trying to write: 47
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) wrote: 47
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 716ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange initiating completion of bodySentCF
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange sendBodyAsync completed successfully
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Exchange reading headers
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) First time around
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@6c3d0f74
-2024-05-27 23:33:01 [FINE] [JdkHttpClient-2-0] [5s 717ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] SocketTube(3) read bytes: 122
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 967ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) next timeout: 177739
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 968ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 968ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 969ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@3f3daf49
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Exchange getResponseAsync completed successfully
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 970ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4 queue.isEmpty: false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 971ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@67bba88c/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@4cc19dc4
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1AsyncReceiver(SocketTube(3)) cleared
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 972ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 973ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 973ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 974ms] Http1Response(id=19, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 974ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:03 [FINE] Ending request (POST) /session/c4892d542c1d5c7db9264600e59e6789/url in 2,268ms
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 974ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 974ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 975ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 976ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 976ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:03 [FINE] Executed: get (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) next expired: 1199396
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 976ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 977ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 978ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) next expired: 1199395
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 978ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 978ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] Executing: screenshot [c4892d542c1d5c7db9264600e59e6789, screenshot {}]
-2024-05-27 23:33:03 [FINE] Executing request: (GET) /session/c4892d542c1d5c7db9264600e59e6789/screenshot
-2024-05-27 23:33:03 [FINE] [Forwarding screenshot on session c4892d542c1d5c7db9264600e59e6789 to remote] [7s 990ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/screenshot GET
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 991ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789/screenshot GET,
-	 proxy=null
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 992ms] HttpClientImpl(3) next timeout: 179999
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 993ms] HttpClientImpl(3) next expired: 1199381
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 993ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 993ms] Exchange checkFor407: all clear
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 994ms] Http1Exchange Sending headers only
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@2c48f554 queue.isEmpty: true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@2c48f554, demand=1, canRequestMore=true, queue.isEmpty=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 995ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1Exchange response created in advance
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] Http1Exchange SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 996ms] SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 997ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 997ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@30c5fb99
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 997ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 998ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [7s 998ms] Http1Exchange requestAction.headers
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 998ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) next timeout: 179992
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [7s 999ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) next timeout: 179991
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 1ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 1ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 2ms] Http1Publisher(SocketTube(3)) hasOutgoing = false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-2] [8s 2ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Exchange setting outgoing with headers
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 2ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=333 cap=333]], throwable=null]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 2ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Exchange initiating completion of headersSentCF
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 2ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 3ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] Http1Publisher(SocketTube(3)) onNext with 333 bytes
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 3ms] SocketTube(3) trying to write: 333
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) next timeout: 179988
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 4ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) wrote: 333
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 4ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Publisher(SocketTube(3)) hasOutgoing = false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Exchange checkFor407: all clear
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Exchange sendRequestBody
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Exchange sendBodyAsync
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 5ms] Http1Exchange bodySubscriber is null
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange initiating completion of bodySentCF
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@160dc799
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange sendBodyAsync completed successfully
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Exchange reading headers
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 6ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 7ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) First time around
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 7ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) next timeout: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 94ms] HttpClientImpl(4) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) read bytes: 47741
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 14973 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 314ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Got 14973 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 314ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14973 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next timeout: 179677
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 14973/14973 bytes to header parser
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=111
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@2c48f554
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] SocketTube(3) no more demand for reading
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] SocketTube(3) leaving read() loop with no demand Reading: [ops=0, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Exchange getResponseAsync completed successfully
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next timeout: 179676
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 315ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a queue.isEmpty: false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14862
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=76052, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 315ms] Http1AsyncReceiver(SocketTube(3)) Got 14862 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14862 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 14862/14973 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14862 bytes (76052 remaining / 76052)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775806
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (61190 remaining / 76052)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775805
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (44806 remaining / 76052)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=false, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 316ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: no need to request more
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 316ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 316ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) read bytes: 28422
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Putting 16384 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Putting 12038 bytes into the queue
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Got 16384 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775804
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 16384 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 317ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 16384/16384 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 16384 bytes (28422 remaining / 76052)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Got 12038 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775803
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 12038 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@56624721/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@2edcf20a
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Sending 12038/12038 bytes to body parser
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 12038 bytes (12038 remaining / 76052)
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1AsyncReceiver(SocketTube(3)) cleared
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 317ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 318ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 318ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1Response(id=20, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) next expired: 1199054
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] Ending request (GET) /session/c4892d542c1d5c7db9264600e59e6789/screenshot in 335ms
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 319ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 319ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 320ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) next expired: 1199053
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 320ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] Executed: screenshot (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: *screenshot response suppressed*)
-2024-05-27 23:33:03 [FINE] Closing websocket
-2024-05-27 23:33:03 [FINE] Sending close message, statusCode 1,000, reason: WebDriver closing socket
-2024-05-27 23:33:03 [FINE] [main] [8s 328ms] [WebSocket] RawChannelTube(SocketTube(4)) register write event
-2024-05-27 23:33:03 [FINE] [main] [8s 328ms] [WebSocket] RawChannelTube(SocketTube(4)) write: writing 32
-2024-05-27 23:33:03 [FINE] [main] [8s 328ms] SocketTube(4) trying to write: 32
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) wrote: 32
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) write: requesting more...
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] [WebSocket] RawChannelTube(SocketTube(4)) WriteSubscription::request 1
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] SocketTube(4) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [main] [8s 329ms] [WebSocket] RawChannelTube(SocketTube(4)) shutdownOutput
-2024-05-27 23:33:03 [FINE] Websocket response to org.openqa.selenium.remote.http.CloseMessage@781a9412 read in 1ms
-2024-05-27 23:33:03 [FINE] Closing websocket
-2024-05-27 23:33:03 [FINE] Output is closed, not sending close message
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 329ms] SocketTube(4) read bytes: 4
-2024-05-27 23:33:03 [FINE] Executing: quit [c4892d542c1d5c7db9264600e59e6789, quit {}]
-2024-05-27 23:33:03 [FINE] Executing request: (DELETE) /session/c4892d542c1d5c7db9264600e59e6789
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) ReadSubscriber::onNext 4 bytes
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) ReadSubscriber: handling event
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) read
-2024-05-27 23:33:03 [FINE] [Driver Command Executor] [8s 330ms] HttpClientImpl(3) ClientImpl (async) send http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789 DELETE
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] [WebSocket] RawChannelTube(SocketTube(4)) read: 4
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 330ms] SocketTube(4) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Exchange establishing exchange for http://localhost:29474/session/c4892d542c1d5c7db9264600e59e6789 DELETE,
-	 proxy=null
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) next timeout: 179999
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next timeout: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) next expired: 1199042
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 331ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) no more demand for reading
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Exchange checkFor407: all clear
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] SocketTube(4) leaving read() loop with no demand Reading: [ops=0, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1Exchange Sending headers only
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next timeout: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec queue.isEmpty: true
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) next expired: 0
-2024-05-27 23:33:03 [FINE] [HttpClient-4-SelectorManager] [8s 331ms] HttpClientImpl(4) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec, demand=1, canRequestMore=true, queue.isEmpty=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 331ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange response created in advance
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) connecting flows
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) got subscriber: SocketTube(3)
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) handling pending subscription for jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber@4a18b4d3
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange requestAction.headers
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) Received onSubscribed from upstream
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) next timeout: 179998
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) checkRequestMore: canRequestMore=true, hasDemand=true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange setting outgoing with headers
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=300 cap=300]], throwable=null]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: requesting one more from upstream
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-0] [8s 332ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 332ms] SocketTube(3) resuming read event
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 332ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next timeout: 179997
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) WriteTask
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) hasOutgoing = true
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange initiating completion of headersSentCF
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next timeout: 179997
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Exchange checkFor407: all clear
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Exchange sendRequestBody
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange sendBodyAsync
-2024-05-27 23:33:03 [FINE] [HttpClient-3-SelectorManager] [8s 333ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange bodySubscriber is null
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Exchange appending to outgoing DataPair [data=[java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]], throwable=null]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] Http1Publisher(SocketTube(3)) onNext with 300 bytes
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) trying to write: 300
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) wrote: 300
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 333ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Publisher(SocketTube(3)) subscription request(1), demand=1
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving w.onNext Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange initiating completion of bodySentCF
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange sendBodyAsync completed successfully
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Exchange reading headers
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Reading Headers: (remaining: 0) READING_HEADERS
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) First time around
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) headersReader is not yet completed
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] Http1Publisher(SocketTube(3)) completed, stopping jdk.internal.net.http.common.SequentialScheduler@7331ffc4
-2024-05-27 23:33:03 [FINE] [JdkHttpClient-2-1] [8s 334ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) read bytes: 122
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Putting 122 bytes into the queue
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) resuming read event
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] SocketTube(3) leaving read() loop after onNext:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Got 122 bytes for delegate jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) next timeout: 179945
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 1
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 122 bytes to delegate jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 385ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Sending 122/122 bytes to header parser
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Parsing headers completed. bytes=108
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 385ms] Http1AsyncReceiver(SocketTube(3)) Unsubscribed jdk.internal.net.http.Http1Response$HeadersReader@3d9c76ec
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Reading Headers: creating Response object; state is now READING_BODY
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Exchange getResponseAsync completed successfully
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) readBody: return2Cache: true
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Operation started: incrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Subscribed pending jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522 queue.isEmpty: false
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 14
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser length=14, onSubscribe: jdk.internal.net.http.Http1Response$Http1BodySubscriber
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) delegate is now jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522, demand=9223372036854775807, canRequestMore=false, queue.isEmpty=false
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 386ms] Http1AsyncReceiver(SocketTube(3)) Got 14 bytes for delegate jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1AsyncReceiver(SocketTube(3)) downstream subscription demand is 9223372036854775807
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1AsyncReceiver(SocketTube(3)) Forwarding 14 bytes to delegate jdk.internal.net.http.Http1Response$BodyReader@47e34c52/parser=jdk.internal.net.http.ResponseContent$FixedLengthBodyParser@5ea98522
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Sending 14/122 bytes to body parser
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 387ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got 14 bytes (14 remaining / 14)
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] PlainHttpConnection(SocketTube(3))/ResponseContent/FixedLengthBodyParser Parser got all expected bytes: completing
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] Http1AsyncReceiver(SocketTube(3)) cleared
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) SocketTube(3): return to HTTP/1.1 pool
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] ConnectionPool(3) registering CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 388ms] SocketTube(3) connecting flows
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) read publisher got subscriber
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) registering subscribe event
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) leaving read.subscribe:  Reading: [ops=1, demand=0, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) subscribed for writing
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) write: resetting demand to 0
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 389ms] SocketTube(3) subscribe event raised
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 389ms] SocketTube(3) write: registering startSubscription event
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) handling pending subscription for CleanupTrigger(SocketTube(3))
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Http1TubeSubscriber: dropSubscription
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) read demand reset to 0
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) calling onSubscribe
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) got some demand for reading
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) resuming read event
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) leaving request(1):  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=0]
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) onSubscribe called
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Finished reading body: READING_BODY
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) pending subscriber subscribed
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1Response(id=21, PlainHttpConnection(SocketTube(3))) Operation finished: decrementing ref count for jdk.internal.net.http.HttpClientImpl@2da2c40(3)
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Delegate done: 0
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next expired: 1199983
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] Http1AsyncReceiver(SocketTube(3)) Got 0 bytes for delegate null
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) write: starting subscription
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] SocketTube(3) write: offloading requestMore
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 390ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:04 [FINE] Ending request (DELETE) /session/c4892d542c1d5c7db9264600e59e6789 in 61ms
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 390ms] SocketTube(3) write: requesting more...
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 391ms] HttpClientImpl(3) next expired: 1199982
-2024-05-27 23:33:04 [FINE] [JdkHttpClient-2-1] [8s 391ms] SocketTube(3) leaving requestMore:  Reading: [ops=1, demand=1, stopped=false], Writing: [ops=0, demand=1]
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 391ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:04 [FINE] Waiting for http://localhost:29474/shutdown
-2024-05-27 23:33:04 [FINE] Polling http://localhost:29474/shutdown
-2024-05-27 23:33:04 [FINE] sun.net.www.MessageHeader@4a974c25 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/17.0.11}{Host: localhost:29474}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
-2024-05-27 23:33:04 [FINE] sun.net.www.MessageHeader@120d6e063 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) got read EOF
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) pausing read event
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] SocketTube(3) completing subscriber
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 405ms] ConnectionPool(3) SocketTube(3) : ConnectionPool.cleanup(null)
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 407ms] PlainHttpConnection(SocketTube(3)) Closing channel: channel registered with selector, key.interestOps=1, sa.interestOps=1
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 409ms] SocketTube(3) signal read error: java.io.IOException: connection closed locally
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) got read error: java.io.IOException: connection closed locally
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) Stopping read scheduler
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) leaving read() loop after EOF:  Reading: [ops=0, demand=0, stopped=true], Writing: [ops=0, demand=1]
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 410ms] SocketTube(3) Read scheduler stopped
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) ReadEvent abort: java.io.IOException: java.nio.channels.CancelledKeyException
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) signalError to jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription@3b43da48 (java.io.IOException: java.nio.channels.CancelledKeyException)
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] SocketTube(3) signal read error: java.io.IOException: java.nio.channels.CancelledKeyException
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) next timeout: 0
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) next expired: 0
-2024-05-27 23:33:04 [FINE] [HttpClient-3-SelectorManager] [8s 411ms] HttpClientImpl(3) Next deadline is 3000
-2024-05-27 23:33:04 [FINE] completed to copy the output of process 4526
-2024-05-27 23:33:04 [FINE] Polling http://localhost:29474/shutdown
-2024-05-27 23:33:04 [FINE] Executed: quit (Response: SessionID: c4892d542c1d5c7db9264600e59e6789, State: success, Value: null)
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:57:0a:11:97:42:c4:e3:cc, Subject:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Issuer:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Key type:RSA, Length:4096, Cert Id:1729119956, Valid from:22/09/11, 4:52 pm, Valid until:22/09/30, 4:52 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:3968614624, Valid from:30/05/00, 4:18 pm, Valid until:30/05/20, 4:18 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:607365522, Valid from:30/05/00, 4:14 pm, Valid until:30/05/20, 4:14 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:06:6c:9f:cf:99:bf:8c:0a:39:e2:f0:78:8a:43:e6:96:36:5b:ca, Subject:CN=Amazon Root CA 1, O=Amazon, C=US, Issuer:CN=Amazon Root CA 1, O=Amazon, C=US, Key type:RSA, Length:2048, Cert Id:2822522334, Valid from:26/05/15, 5:30 am, Valid until:17/01/38, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:06:6c:9f:d2:96:35:86:9f:0a:0f:e5:86:78:f8:5b:26:bb:8a:37, Subject:CN=Amazon Root CA 2, O=Amazon, C=US, Issuer:CN=Amazon Root CA 2, O=Amazon, C=US, Key type:RSA, Length:4096, Cert Id:2528834908, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:06:6c:9f:d5:74:97:36:66:3f:3b:0b:9a:d9:e8:9e:76:03:f2:4a, Subject:CN=Amazon Root CA 3, O=Amazon, C=US, Issuer:CN=Amazon Root CA 3, O=Amazon, C=US, Key type:EC, Length:256, Cert Id:2732679773, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:06:6c:9f:d7:c1:bb:10:4c:29:43:e5:71:7b:7b:2c:c8:1a:c1:0e, Subject:CN=Amazon Root CA 4, O=Amazon, C=US, Issuer:CN=Amazon Root CA 4, O=Amazon, C=US, Key type:EC, Length:384, Cert Id:2640694783, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:02, Subject:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:969960563, Valid from:26/10/10, 2:08 pm, Valid until:26/10/40, 2:08 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:02, Subject:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:1264269967, Valid from:26/10/10, 1:58 pm, Valid until:26/10/40, 1:58 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00:a3:da:42:7e:a4:b1:ae:da, Subject:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:4266703372, Valid from:01/08/08, 5:59 pm, Valid until:31/07/38, 5:59 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:06:25:33:b1:47:03:33:27:5c:f9:8d:9a:b9:bf:cc:f8, Subject:CN=Certainly Root E1, O=Certainly, C=US, Issuer:CN=Certainly Root E1, O=Certainly, C=US, Key type:EC, Length:384, Cert Id:792571453, Valid from:01/04/21, 5:30 am, Valid until:01/04/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:8e:0f:f9:4b:90:71:68:65:33:54:f4:d4:44:39:b7:e0, Subject:CN=Certainly Root R1, O=Certainly, C=US, Issuer:CN=Certainly Root R1, O=Certainly, C=US, Key type:RSA, Length:4096, Cert Id:2255958535, Valid from:01/04/21, 5:30 am, Valid until:01/04/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00:fe:dc:e3:01:0f:c9:48:ff, Subject:CN=Certigna, O=Dhimyotis, C=FR, Issuer:CN=Certigna, O=Dhimyotis, C=FR, Key type:RSA, Length:2048, Cert Id:3506875840, Valid from:29/06/07, 8:43 pm, Valid until:29/06/27, 8:43 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:ca:e9:1b:89:f1:55:03:0d:a3:e6:41:6d:c4:e3:a6:e1, Subject:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Issuer:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Key type:RSA, Length:4096, Cert Id:356684591, Valid from:01/10/13, 2:02 pm, Valid until:01/10/33, 2:02 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01:00:20, Subject:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Issuer:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Key type:RSA, Length:2048, Cert Id:3550516030, Valid from:11/06/02, 4:16 pm, Valid until:11/06/27, 4:16 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:04:44:c0, Subject:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Issuer:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Key type:RSA, Length:2048, Cert Id:2014002193, Valid from:22/10/08, 5:37 pm, Valid until:31/12/29, 5:37 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:15:c8:bd:65:47:5c:af:b8:97:00:5e:e4:06:d2:bc:9d, Subject:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Issuer:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Key type:RSA, Length:4096, Cert Id:3632331159, Valid from:20/12/04, 8:01 am, Valid until:20/12/34, 8:01 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:2048, Cert Id:3097386402, Valid from:01/01/04, 5:30 am, Valid until:01/01/29, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:1f:47:af:aa:62:00:70:50:54:4c:01:9e:9b:63:99:2a, Subject:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:EC, Length:384, Cert Id:1146488932, Valid from:06/03/08, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:4c:aa:f9:ca:db:63:6f:e0:1f:f7:4e:d8:5b:03:86:9d, Subject:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:4096, Cert Id:1769425049, Valid from:19/01/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0b:93:1c:3a:d6:39:67:ea:67:23:bf:c3:af:9a:f4:4b, Subject:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:3909568913, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:0b:a1:5a:fa:1d:df:a0:b5:49:44:af:cd:24:a0:6c:ec, Subject:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:3649430051, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:0c:e7:e0:e5:17:d8:46:fe:8f:e5:60:fc:1b:f0:30:39, Subject:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:3434562768, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:03:69:8f:e7:12:d5:19:f3:ce:d0:fd:b7:b1:64:30:11, Subject:CN=DigiCert CS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert CS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Key type:EC, Length:384, Cert Id:381797637, Valid from:15/01/21, 5:30 am, Valid until:15/01/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:06:ce:e1:31:be:6d:55:c8:07:f7:c0:c7:fb:44:e6:20, Subject:CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1193514382, Valid from:15/01/21, 5:30 am, Valid until:15/01/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:08:3b:e0:56:90:42:46:b1:a1:75:6a:c9:59:91:c7:4a, Subject:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1341898239, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:03:3a:f1:e6:a7:11:a9:a0:bb:28:64:b1:1d:09:fa:e5, Subject:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1136084297, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:05:55:56:bc:f2:5e:a4:35:35:c3:a4:0f:d5:ab:45:72, Subject:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:3498998753, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:02:ac:5c:26:6a:0b:40:9b:8f:0b:79:f2:ae:46:25:77, Subject:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:2884286942, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:09:e0:93:65:ac:f7:d9:c8:b9:3e:1c:0b:04:2a:2e:f3, Subject:CN=DigiCert TLS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert TLS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Key type:EC, Length:384, Cert Id:3940772018, Valid from:15/01/21, 5:30 am, Valid until:15/01/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:08:f9:b4:78:a8:fa:7e:da:6a:33:37:89:de:7c:cf:8a, Subject:CN=DigiCert TLS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert TLS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:165956757, Valid from:15/01/21, 5:30 am, Valid until:15/01/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:05:9b:1b:57:9e:8e:21:32:e2:39:07:bd:a7:77:75:5c, Subject:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:4096, Cert Id:1057369358, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:09:83:f3, Subject:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1430153102, Valid from:05/11/09, 2:05 pm, Valid until:05/11/29, 2:05 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:09:83:f4, Subject:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:971313728, Valid from:05/11/09, 2:20 pm, Valid until:05/11/29, 2:20 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:3c:f6:07:a9:68:70:0e:da:8b:84, Subject:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:EC, Length:384, Cert Id:3832035707, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:31:f5:e4:62:0c:6c:58:ed:d6:d8, Subject:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:RSA, Length:2048, Cert Id:392709196, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:00:86:4d:bf:0f:e3:5e:d7:7d:8e:d8, Subject:CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:RSA, Length:4096, Cert Id:3373940126, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:38:63:de:f8, Subject:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Issuer:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Key type:RSA, Length:2048, Cert Id:3966431214, Valid from:24/12/99, 11:20 pm, Valid until:24/07/29, 7:45 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:45:6b:50:54, Subject:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:3033563200, Valid from:28/11/06, 1:53 am, Valid until:28/11/26, 2:23 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:00:a6:8b:79:29:00:00:00:00:50:d0:91:f9, Subject:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:EC, Length:384, Cert Id:924514073, Valid from:18/12/12, 8:55 pm, Valid until:18/12/37, 9:25 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:4a:53:8c:28, Subject:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1936920337, Valid from:07/07/09, 10:55 pm, Valid until:07/12/30, 11:25 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:d9:b5:43:7f:af:a9:39:0f:00:00:00:00:55:65:ad:58, Subject:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1368037548, Valid from:27/05/15, 4:41 pm, Valid until:27/12/37, 5:11 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:02:34:56, Subject:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:2266349922, Valid from:21/05/02, 9:30 am, Valid until:21/05/22, 9:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:18:ac:b5:6a:fd:69:b6:15:3a:63:6c:af:da:fa:c4:a1, Subject:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:3329622139, Valid from:27/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:3c:b2:f4:48:0a:00:e2:fe:eb:24:3b:5e:60:3e:c3:6b, Subject:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:EC, Length:384, Cert Id:3180663474, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:15:ac:6e:94:19:b2:79:4b:41:f6:27:a9:c3:18:0f:1f, Subject:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:2964813538, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:4096, Cert Id:313566089, Valid from:04/03/04, 10:30 am, Valid until:04/03/29, 10:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:04:00:00:00:00:01:15:4b:5a:c3:94, Subject:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:536948034, Valid from:01/09/98, 5:30 pm, Valid until:28/01/28, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:11:d2:bb:ba:33:6e:d4:bc:e6:24:68:c5:0d:84:1d:98:e8:43, Subject:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Key type:EC, Length:384, Cert Id:3405603905, Valid from:20/03/19, 5:30 am, Valid until:20/03/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:2a:38:a4:1c:96:0a:04:de:42:b2:28:a5:0b:e8:34:98:02, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Key type:EC, Length:256, Cert Id:2371693751, Valid from:13/11/12, 5:30 am, Valid until:19/01/38, 8:44 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:60:59:49:e0:26:2e:bb:55:f9:0a:77:8a:71:f9:4a:d8:6c, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Key type:EC, Length:384, Cert Id:1997048439, Valid from:13/11/12, 5:30 am, Valid until:19/01/38, 8:44 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:18/03/09, 3:30 pm, Valid until:18/03/29, 3:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:11:d2:bb:b9:d7:23:18:9e:40:5f:0a:9d:2d:d0:df:25:67:d1, Subject:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:4096, Cert Id:1275948927, Valid from:20/03/19, 5:30 am, Valid until:20/03/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:45:e6:bb:03:83:33:c3:85:65:48:e6:ff:45:51, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Key type:RSA, Length:4096, Cert Id:3788339543, Valid from:10/12/14, 5:30 am, Valid until:10/12/34, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00, Subject:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Issuer:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:4023522997, Valid from:29/06/04, 10:36 pm, Valid until:29/06/34, 10:36 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00, Subject:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:439600313, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:02:03:e5:93:6f:31:b0:13:49:88:6b:a2:17, Subject:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:657172038, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:02:03:e5:ae:c5:8d:04:25:1a:ab:11:25:aa, Subject:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:948387669, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:02:03:e5:b8:82:eb:20:f8:25:27:6d:3d:66, Subject:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1163081155, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:02:03:e5:c0:68:ef:63:1a:9c:72:90:50:52, Subject:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1326433111, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:00, Subject:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:EC, Length:384, Cert Id:513613456, Valid from:07/07/15, 4:07 pm, Valid until:30/06/40, 4:07 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00, Subject:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:RSA, Length:4096, Cert Id:3491990565, Valid from:07/07/15, 3:41 pm, Valid until:30/06/40, 3:41 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0a:01:42:80:00:00:01:45:23:c8:44:b5:00:00:00:02, Subject:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:1232565210, Valid from:16/01/14, 11:42 pm, Valid until:16/01/34, 11:42 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0a:01:42:80:00:00:01:45:23:cf:46:7c:00:00:00:02, Subject:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:2123370772, Valid from:16/01/14, 11:23 pm, Valid until:16/01/34, 11:23 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:82:10:cf:b0:d2:40:e3:59:44:63:e0:bb:63:82:8b:00, Subject:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Key type:RSA, Length:4096, Cert Id:1521974916, Valid from:04/06/15, 4:34 pm, Valid until:04/06/35, 4:34 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:41:d2:9d:d1:72:ea:ee:a7:80:c1:2c:6c:e9:2f:87:52, Subject:CN=ISRG Root X2, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X2, O=Internet Security Research Group, C=US, Key type:EC, Length:384, Cert Id:3398642244, Valid from:04/09/20, 5:30 am, Valid until:17/09/40, 9:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0a:7e:a6:df:4b:44:9e:da:6a:24:85:9e:e6:b8:15:d3:16:7f:bb:b1, Subject:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Issuer:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Key type:RSA, Length:4096, Cert Id:3055636602, Valid from:05/03/15, 6:51 pm, Valid until:05/03/35, 6:51 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0b:b8, Subject:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Issuer:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Key type:RSA, Length:2048, Cert Id:1714819687, Valid from:17/03/11, 3:21 pm, Valid until:17/03/21, 3:21 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:66:f2:3d:af:87:de:8b:b1:4a:ea:0c:57:31:01:c2:ec, Subject:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:EC, Length:384, Cert Id:3240761285, Valid from:19/12/19, 4:36 am, Valid until:19/07/42, 4:46 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:1e:d3:97:09:5f:d8:b4:b3:47:70:1e:aa:be:7f:45:b3, Subject:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:RSA, Length:4096, Cert Id:2848349048, Valid from:19/12/19, 4:21 am, Valid until:19/07/42, 4:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:3a:b6:50:8b, Subject:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Key type:RSA, Length:2048, Cert Id:2412561694, Valid from:20/03/01, 12:03 am, Valid until:18/03/21, 12:03 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:78:58:5f:2e:ad:2c:19:4b:e3:37:07:35:34:13:28:b5:96:d4:65:93, Subject:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:3532531262, Valid from:12/01/12, 10:57 pm, Valid until:12/01/42, 10:57 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:05:09, Subject:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:338250116, Valid from:24/11/06, 11:57 pm, Valid until:24/11/31, 11:53 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:44:57:34:24:5b:81:89:9b:35:f2:ce:b8:2b:3b:5b:a7:26:f0:75:28, Subject:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:696763521, Valid from:13/01/12, 12:29 am, Valid until:13/01/42, 12:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:05:c6, Subject:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:1470392860, Valid from:25/11/06, 12:41 am, Valid until:25/11/31, 12:36 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:2e:f5:9b:02:28:a7:db:7a:ff:d5:a3:a9:ee:bd:03:a0:cf:12:6a:1d, Subject:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:3589344305, Valid from:13/01/12, 1:56 am, Valid until:13/01/42, 1:56 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00, Subject:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Issuer:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Key type:RSA, Length:2048, Cert Id:1521072570, Valid from:29/05/09, 10:30 am, Valid until:29/05/29, 10:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:50:24:9b:a2:ef:8e:a6:bf:6c:2c:1f:1a:63:85:d4:c3, Subject:CN=Sectigo Public Code Signing Root E46, O=Sectigo Limited, C=GB, Issuer:CN=Sectigo Public Code Signing Root E46, O=Sectigo Limited, C=GB, Key type:EC, Length:384, Cert Id:3143279241, Valid from:22/03/21, 5:30 am, Valid until:22/03/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:4b:2c:3b:01:01:8b:ad:2a:bc:8c:7b:5b:3e:ed:90:57, Subject:CN=Sectigo Public Code Signing Root R46, O=Sectigo Limited, C=GB, Issuer:CN=Sectigo Public Code Signing Root R46, O=Sectigo Limited, C=GB, Key type:RSA, Length:4096, Cert Id:2667769042, Valid from:22/03/21, 5:30 am, Valid until:22/03/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:42:f2:cc:da:1b:69:37:44:5f:15:fe:75:28:10:b8:f4, Subject:CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB, Issuer:CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB, Key type:EC, Length:384, Cert Id:3789385269, Valid from:22/03/21, 5:30 am, Valid until:22/03/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:75:8d:fd:8b:ae:7c:07:00:fa:a9:25:a7:e1:c7:ad:14, Subject:CN=Sectigo Public Server Authentication Root R46, O=Sectigo Limited, C=GB, Issuer:CN=Sectigo Public Server Authentication Root R46, O=Sectigo Limited, C=GB, Key type:RSA, Length:4096, Cert Id:3806652169, Valid from:22/03/21, 5:30 am, Valid until:22/03/46, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:0c:f0:8e:5c:08:16:a5:ad:42:7f:f0:eb:27:18:59:d0, Subject:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Issuer:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Key type:RSA, Length:2048, Cert Id:2034155325, Valid from:08/11/06, 1:01 am, Valid until:01/01/30, 1:10 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:75:e6:df:cb:c1:68:5b:a8, Subject:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:EC, Length:384, Cert Id:2926673683, Valid from:12/02/16, 11:44 pm, Valid until:12/02/41, 11:44 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:56:b6:29:cd:34:bc:78:f6, Subject:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:1381862403, Valid from:31/05/17, 11:44 pm, Valid until:30/05/42, 11:44 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:7b:2c:9b:d3:16:80:32:99, Subject:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:156725711, Valid from:12/02/16, 11:09 pm, Valid until:12/02/41, 11:09 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:14:03:f5:ab:fb:37:8b:17:40:5b:e2:43:b2:a5:d1:c4, Subject:CN=SSL.com TLS ECC Root CA 2022, O=SSL Corporation, C=US, Issuer:CN=SSL.com TLS ECC Root CA 2022, O=SSL Corporation, C=US, Key type:EC, Length:384, Cert Id:683561703, Valid from:25/08/22, 10:03 pm, Valid until:19/08/46, 10:03 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:6f:be:da:ad:73:bd:08:40:e2:8b:4d:be:d4:f7:5b:91, Subject:CN=SSL.com TLS RSA Root CA 2022, O=SSL Corporation, C=US, Issuer:CN=SSL.com TLS RSA Root CA 2022, O=SSL Corporation, C=US, Key type:RSA, Length:4096, Cert Id:556880013, Valid from:25/08/22, 10:04 pm, Valid until:19/08/46, 10:04 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00, Subject:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Issuer:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1825617644, Valid from:29/06/04, 11:09 pm, Valid until:29/06/34, 11:09 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00, Subject:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:3268325709, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00, Subject:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:1964785574, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00:bb:40:1c:43:f5:5e:4f:b0, Subject:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:1516221943, Valid from:25/10/06, 2:00 pm, Valid until:25/10/36, 2:00 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:4e:b2:00:67:0c:03:5d:4f, Subject:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:771312514, Valid from:25/10/06, 2:06 pm, Valid until:25/10/36, 2:06 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:4f:1b:d4:2f:54:bb:2f:4b, Subject:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:126726124, Valid from:25/10/06, 2:02 pm, Valid until:25/10/36, 2:02 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:01:67:5f:27:d6:fe:7a:e3:e4:ac:be:09:5b:05:9e, Subject:CN=Telia Root CA v2, O=Telia Finland Oyj, C=FI, Issuer:CN=Telia Root CA v2, O=Telia Finland Oyj, C=FI, Key type:RSA, Length:4096, Cert Id:3473063976, Valid from:29/11/18, 5:25 pm, Valid until:29/11/43, 5:25 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00:95:be:16:a0:f7:2e:46:f1:7b:39:82:72:fa:8b:cd:96, Subject:CN=TeliaSonera Root CA v1, O=TeliaSonera, Issuer:CN=TeliaSonera Root CA v1, O=TeliaSonera, Key type:RSA, Length:4096, Cert Id:1495358374, Valid from:18/10/07, 5:30 pm, Valid until:18/10/32, 5:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:34:4e:d5:57:20:d5:ed:ec:49:f4:2f:ce:37:db:2b:6d, Subject:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:643000026, Valid from:17/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:35:fc:26:5c:d9:84:4f:c9:3d:26:3d:57:9b:ae:d7:56, Subject:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Key type:EC, Length:384, Cert Id:2068083090, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:60:01:97:b7:46:a7:ea:b4:b4:9a:d6:4b:2f:f7:90:fb, Subject:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1032730720, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:01, Subject:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:3056503257, Valid from:01/10/08, 4:10 pm, Valid until:02/10/33, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:01, Subject:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1894096264, Valid from:01/10/08, 3:59 pm, Valid until:02/10/33, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0c:be, Subject:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Issuer:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Key type:RSA, Length:4096, Cert Id:861175838, Valid from:27/06/12, 11:58 am, Valid until:31/12/30, 9:29 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:5c:8b:99:c5:5a:94:c5:d2:71:56:de:cd:89:80:cc:26, Subject:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:EC, Length:384, Cert Id:3329287386, Valid from:01/02/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:01:fd:6d:30:fc:a3:ca:51:a8:1b:bc:64:0e:35:03:2d, Subject:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:RSA, Length:4096, Cert Id:3947601401, Valid from:01/02/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:44:be:0c:8b:50:00:24:b4:11:d3:36:2d:e0:b3:5f:1b, Subject:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Issuer:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Key type:RSA, Length:2048, Cert Id:3997913868, Valid from:10/07/99, 12:01 am, Valid until:10/07/19, 12:10 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:00:9b:7e:06:49:a3:3e:62:b9:d5:ee:90:48:71:29:ef:57, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2057300190, Valid from:01/10/99, 5:30 am, Valid until:17/07/36, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:2f:80:fe:23:8c:0e:22:0f:48:67:12:28:91:87:ac:b3, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:EC, Length:384, Cert Id:4163473319, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:18:da:d1:9e:26:7d:e8:bb:4a:21:58:cd:cc:6b:3b:4a, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:303010488, Valid from:08/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:40:1a:c4:64:21:b3:13:21:03:0e:bb:e4:12:1a:c5:1d, Subject:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2318285810, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:76:b1:20:52:74:f0:85:87:46:b3:f8:23:1a:f6:c2:c0, Subject:CN=OISTE WISeKey Global Root GB CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Issuer:CN=OISTE WISeKey Global Root GB CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Key type:RSA, Length:2048, Cert Id:3681485780, Valid from:01/12/14, 8:30 pm, Valid until:01/12/39, 8:40 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:21:2a:56:0c:ae:da:0c:ab:40:45:bf:2b:a2:2d:3a:ea, Subject:CN=OISTE WISeKey Global Root GC CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Issuer:CN=OISTE WISeKey Global Root GC CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Key type:EC, Length:384, Cert Id:2781801839, Valid from:09/05/17, 3:18 pm, Valid until:09/05/42, 3:28 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:50:94:6c:ec:18:ea:d5:9c:4d:d5:97:ef:75:8f:a0:ad, Subject:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Issuer:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Key type:RSA, Length:2048, Cert Id:3342493210, Valid from:01/11/04, 10:44 pm, Valid until:01/01/35, 11:07 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:05:f7:0e:86:da:49:f3:46:35:2e:ba:b2, Subject:CN=Trustwave Global Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Issuer:CN=Trustwave Global Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Key type:RSA, Length:4096, Cert Id:416366836, Valid from:24/08/17, 1:04 am, Valid until:24/08/42, 1:04 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0c:be, Subject:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Issuer:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Key type:RSA, Length:4096, Cert Id:861175838, Valid from:27/06/12, 11:58 am, Valid until:31/12/30, 9:29 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:5d:df:b1:da:5a:a3:ed:5d:be:5a:65:20:65:03:90:ef, Subject:CN=UCA Global G2 Root, O=UniTrust, C=CN, Issuer:CN=UCA Global G2 Root, O=UniTrust, C=CN, Key type:RSA, Length:4096, Cert Id:1844967193, Valid from:11/03/16, 5:30 am, Valid until:31/12/40, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:31:f5:e4:62:0c:6c:58:ed:d6:d8, Subject:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:RSA, Length:2048, Cert Id:392709196, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:02:03:e5:c0:68:ef:63:1a:9c:72:90:50:52, Subject:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1326433111, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:3c:f6:07:a9:68:70:0e:da:8b:84, Subject:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:EC, Length:384, Cert Id:3832035707, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:02:03:e5:b8:82:eb:20:f8:25:27:6d:3d:66, Subject:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1163081155, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:02:03:e5:ae:c5:8d:04:25:1a:ab:11:25:aa, Subject:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:948387669, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:11:d2:bb:b9:d7:23:18:9e:40:5f:0a:9d:2d:d0:df:25:67:d1, Subject:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:4096, Cert Id:1275948927, Valid from:20/03/19, 5:30 am, Valid until:20/03/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:02:03:e5:93:6f:31:b0:13:49:88:6b:a2:17, Subject:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:657172038, Valid from:22/06/16, 5:30 am, Valid until:22/06/36, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:0d:d3:e3:bc:6c:f9:6b:b1, Subject:CN=ANF Secure Server Root CA, OU=ANF CA Raiz, O=ANF Autoridad de Certificacion, C=ES, SERIALNUMBER=G63287510, Issuer:CN=ANF Secure Server Root CA, OU=ANF CA Raiz, O=ANF Autoridad de Certificacion, C=ES, SERIALNUMBER=G63287510, Key type:RSA, Length:4096, Cert Id:3453317601, Valid from:04/09/19, 3:30 pm, Valid until:30/08/39, 3:30 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:21:2a:56:0c:ae:da:0c:ab:40:45:bf:2b:a2:2d:3a:ea, Subject:CN=OISTE WISeKey Global Root GC CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Issuer:CN=OISTE WISeKey Global Root GC CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Key type:EC, Length:384, Cert Id:2781801839, Valid from:09/05/17, 3:18 pm, Valid until:09/05/42, 3:28 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:b0:b7:5a:16:48:5f:bf:e1:cb:f5:8b:d7:19:e6:7d, Subject:CN=Izenpe.com, O=IZENPE S.A., C=ES, Issuer:CN=Izenpe.com, O=IZENPE S.A., C=ES, Key type:RSA, Length:4096, Cert Id:2449386312, Valid from:13/12/07, 6:38 pm, Valid until:13/12/37, 1:57 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:01:54:48:ef:21:fd:97:59:0d:f5:04:0a, Subject:CN=e-Szigno Root CA 2017, OID.2.5.4.97=VATHU-23584497, O=Microsec Ltd., L=Budapest, C=HU, Issuer:CN=e-Szigno Root CA 2017, OID.2.5.4.97=VATHU-23584497, O=Microsec Ltd., L=Budapest, C=HU, Key type:EC, Length:256, Cert Id:3303793581, Valid from:22/08/17, 5:37 pm, Valid until:22/08/42, 5:37 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:01, Subject:CN=TUBITAK Kamu SM SSL Kok Sertifikasi - Surum 1, OU=Kamu Sertifikasyon Merkezi - Kamu SM, O=Turkiye Bilimsel ve Teknolojik Arastirma Kurumu - TUBITAK, L=Gebze - Kocaeli, C=TR, Issuer:CN=TUBITAK Kamu SM SSL Kok Sertifikasi - Surum 1, OU=Kamu Sertifikasyon Merkezi - Kamu SM, O=Turkiye Bilimsel ve Teknolojik Arastirma Kurumu - TUBITAK, L=Gebze - Kocaeli, C=TR, Key type:RSA, Length:2048, Cert Id:1093603654, Valid from:25/11/13, 1:55 pm, Valid until:25/10/43, 1:55 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:5d:93:8d:30:67:36:c8:06:1d:1a:c7:54:84:69:07, Subject:OU=AC RAIZ FNMT-RCM, O=FNMT-RCM, C=ES, Issuer:OU=AC RAIZ FNMT-RCM, O=FNMT-RCM, C=ES, Key type:RSA, Length:4096, Cert Id:1555523573, Valid from:29/10/08, 9:29 pm, Valid until:01/01/30, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:76:b1:20:52:74:f0:85:87:46:b3:f8:23:1a:f6:c2:c0, Subject:CN=OISTE WISeKey Global Root GB CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Issuer:CN=OISTE WISeKey Global Root GB CA, OU=OISTE Foundation Endorsed, O=WISeKey, C=CH, Key type:RSA, Length:2048, Cert Id:3681485780, Valid from:01/12/14, 8:30 pm, Valid until:01/12/39, 8:40 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:5c:33:cb:62:2c:5f:b3:32, Subject:C=DE, O=Atos, CN=Atos TrustedRoot 2011, Issuer:C=DE, O=Atos, CN=Atos TrustedRoot 2011, Key type:RSA, Length:2048, Cert Id:4266438672, Valid from:07/07/11, 8:28 pm, Valid until:01/01/31, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA512withRSA, Serial:1e:bf:59:50:b8:c9:80:37:4c:06:f7:eb:55:4f:b5:ed, Subject:CN=Certum Trusted Root CA, OU=Certum Certification Authority, O=Asseco Data Systems S.A., C=PL, Issuer:CN=Certum Trusted Root CA, OU=Certum Certification Authority, O=Asseco Data Systems S.A., C=PL, Key type:RSA, Length:4096, Cert Id:3520640245, Valid from:16/03/18, 5:40 pm, Valid until:16/03/43, 5:40 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:20:06:05:16:70:02, Subject:OU=certSIGN ROOT CA, O=certSIGN, C=RO, Issuer:OU=certSIGN ROOT CA, O=certSIGN, C=RO, Key type:RSA, Length:2048, Cert Id:4005006620, Valid from:04/07/06, 10:50 pm, Valid until:04/07/31, 10:50 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:01:94:30:1e:a2:0b:dd:f5:c5:33:2a:b1:43:44:71:f8:d6:50:4d:0d, Subject:CN=NAVER Global Root Certification Authority, O=NAVER BUSINESS PLATFORM Corp., C=KR, Issuer:CN=NAVER Global Root Certification Authority, O=NAVER BUSINESS PLATFORM Corp., C=KR, Key type:RSA, Length:4096, Cert Id:1777546867, Valid from:18/08/17, 2:28 pm, Valid until:19/08/37, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:18:4a:cc:d6, Subject:CN=CFCA EV ROOT, O=China Financial Certification Authority, C=CN, Issuer:CN=CFCA EV ROOT, O=China Financial Certification Authority, C=CN, Key type:RSA, Length:4096, Cert Id:551407782, Valid from:08/08/12, 8:37 am, Valid until:31/12/29, 8:37 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=SecureSign RootCA11, O="Japan Certification Services, Inc.", C=JP, Issuer:CN=SecureSign RootCA11, O="Japan Certification Services, Inc.", C=JP, Key type:RSA, Length:2048, Cert Id:2079057034, Valid from:08/04/09, 10:26 am, Valid until:08/04/29, 10:26 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:5e:c3:b7:a6:43:7f:a4:e0, Subject:C=ES, O=ACCV, OU=PKIACCV, CN=ACCVRAIZ1, Issuer:C=ES, O=ACCV, OU=PKIACCV, CN=ACCVRAIZ1, Key type:RSA, Length:4096, Cert Id:3702856060, Valid from:05/05/11, 3:07 pm, Valid until:31/12/30, 3:07 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withRSA, Serial:1e:d3:97:09:5f:d8:b4:b3:47:70:1e:aa:be:7f:45:b3, Subject:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:RSA, Length:4096, Cert Id:2848349048, Valid from:19/12/19, 4:21 am, Valid until:19/07/42, 4:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:ae:cf:00:ba:c4:cf:32:f8:43:b2, Subject:CN=emSign Root CA - C1, O=eMudhra Inc, OU=emSign PKI, C=US, Issuer:CN=emSign Root CA - C1, O=eMudhra Inc, OU=emSign PKI, C=US, Key type:RSA, Length:2048, Cert Id:3026103940, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:7d:09:97:fe:f0:47:ea:7a, Subject:CN=GDCA TrustAUTH R5 ROOT, O="GUANG DONG CERTIFICATE AUTHORITY CO.,LTD.", C=CN, Issuer:CN=GDCA TrustAUTH R5 ROOT, O="GUANG DONG CERTIFICATE AUTHORITY CO.,LTD.", C=CN, Key type:RSA, Length:4096, Cert Id:494136981, Valid from:26/11/14, 10:43 am, Valid until:31/12/40, 9:29 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:7b:71:b6:82:56:b8:12:7c:9c:a8, Subject:CN=emSign ECC Root CA - C3, O=eMudhra Inc, OU=emSign PKI, C=US, Issuer:CN=emSign ECC Root CA - C3, O=eMudhra Inc, OU=emSign PKI, C=US, Key type:EC, Length:384, Cert Id:3346510540, Valid from:19/02/18, 12:00 am, Valid until:19/02/43, 12:00 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:11:00:34:b6:4e:c6:36:2d:36, Subject:OU=certSIGN ROOT CA G2, O=CERTSIGN SA, C=RO, Issuer:OU=certSIGN ROOT CA G2, O=CERTSIGN SA, C=RO, Key type:RSA, Length:4096, Cert Id:2181086866, Valid from:06/02/17, 2:57 pm, Valid until:06/02/42, 2:57 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:92:b8:88:db:b0:8a:c1:63, Subject:CN=CA Disig Root R2, O=Disig a.s., L=Bratislava, C=SK, Issuer:CN=CA Disig Root R2, O=Disig a.s., L=Bratislava, C=SK, Key type:RSA, Length:4096, Cert Id:747175721, Valid from:19/07/12, 2:45 pm, Valid until:19/07/42, 2:45 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:08:16:5f:8a:4c:a5:ec:00:c9:93:40:df:c4:c6:ae:23:b8:1c:5a:a4, Subject:CN=Hongkong Post Root CA 3, O=Hongkong Post, L=Hong Kong, ST=Hong Kong, C=HK, Issuer:CN=Hongkong Post Root CA 3, O=Hongkong Post, L=Hong Kong, ST=Hong Kong, C=HK, Key type:RSA, Length:4096, Cert Id:3393016216, Valid from:03/06/17, 7:59 am, Valid until:03/06/42, 7:59 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:5a:4b:bd:5a:fb:4f:8a:5b:fa:65:e5, Subject:CN=GLOBALTRUST 2020, O=e-commerce monitoring GmbH, C=AT, Issuer:CN=GLOBALTRUST 2020, O=e-commerce monitoring GmbH, C=AT, Key type:RSA, Length:4096, Cert Id:3772720413, Valid from:10/02/20, 5:30 am, Valid until:10/06/40, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:66:f2:3d:af:87:de:8b:b1:4a:ea:0c:57:31:01:c2:ec, Subject:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:EC, Length:384, Cert Id:3240761285, Valid from:19/12/19, 4:36 am, Valid until:19/07/42, 4:46 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:07:56:22:a4:e8:d4:8a:89:4d:f4:13:c8:f0:f8:ea:a5, Subject:CN=Secure Global CA, O=SecureTrust Corporation, C=US, Issuer:CN=Secure Global CA, O=SecureTrust Corporation, C=US, Key type:RSA, Length:2048, Cert Id:2818194321, Valid from:08/11/06, 1:12 am, Valid until:01/01/30, 1:22 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:4f:d2:2b:8f:f5:64:c8:33:9e:4f:34:58:66:23:70:60, Subject:CN=UCA Extended Validation Root, O=UniTrust, C=CN, Issuer:CN=UCA Extended Validation Root, O=UniTrust, C=CN, Key type:RSA, Length:4096, Cert Id:649181271, Valid from:13/03/15, 5:30 am, Valid until:31/12/38, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:0d:6a:5f:08:3f:28:5c:3e:51:95:df:5d, Subject:CN=Trustwave Global ECC P256 Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Issuer:CN=Trustwave Global ECC P256 Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Key type:EC, Length:256, Cert Id:948272517, Valid from:24/08/17, 1:05 am, Valid until:24/08/42, 1:05 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:11:d2:bb:ba:33:6e:d4:bc:e6:24:68:c5:0d:84:1d:98:e8:43, Subject:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Key type:EC, Length:384, Cert Id:3405603905, Valid from:20/03/19, 5:30 am, Valid until:20/03/46, 5:30 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:c2:7e:43:04:4e:47:3f:19, Subject:EMAILADDRESS=info@e-szigno.hu, CN=Microsec e-Szigno Root CA 2009, O=Microsec Ltd., L=Budapest, C=HU, Issuer:EMAILADDRESS=info@e-szigno.hu, CN=Microsec e-Szigno Root CA 2009, O=Microsec Ltd., L=Budapest, C=HU, Key type:RSA, Length:2048, Cert Id:2391017284, Valid from:16/06/09, 5:00 pm, Valid until:30/12/29, 5:00 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:3e:8a:5d:07:ec:55:d2:32:d5:b7:e3:b6:5f:01:eb:2d:dc:e4:d6:e4, Subject:CN=SZAFIR ROOT CA2, O=Krajowa Izba Rozliczeniowa S.A., C=PL, Issuer:CN=SZAFIR ROOT CA2, O=Krajowa Izba Rozliczeniowa S.A., C=PL, Key type:RSA, Length:2048, Cert Id:381279303, Valid from:19/10/15, 1:13 pm, Valid until:19/10/35, 1:13 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:53:ec:3b:ee:fb:b2:48:5f, Subject:CN=Autoridad de Certificacion Firmaprofesional CIF A62634068, C=ES, Issuer:CN=Autoridad de Certificacion Firmaprofesional CIF A62634068, C=ES, Key type:RSA, Length:4096, Cert Id:692250759, Valid from:20/05/09, 2:08 pm, Valid until:31/12/30, 2:08 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:01, Subject:CN=TWCA Root Certification Authority, OU=Root CA, O=TAIWAN-CA, C=TW, Issuer:CN=TWCA Root Certification Authority, OU=Root CA, O=TAIWAN-CA, C=TW, Key type:RSA, Length:2048, Cert Id:2652873033, Valid from:28/08/08, 12:54 pm, Valid until:31/12/30, 9:29 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:49:41:2c:e4:00:10, Subject:CN=NetLock Arany (Class Gold) Főtanúsítvány, OU=Tanúsítványkiadók (Certification Services), O=NetLock Kft., L=Budapest, C=HU, Issuer:CN=NetLock Arany (Class Gold) Főtanúsítvány, OU=Tanúsítványkiadók (Certification Services), O=NetLock Kft., L=Budapest, C=HU, Key type:RSA, Length:2048, Cert Id:58541246, Valid from:11/12/08, 8:38 pm, Valid until:06/12/28, 8:38 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:08:bd:85:97:6c:99:27:a4:80:68:47:3b, Subject:CN=Trustwave Global ECC P384 Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Issuer:CN=Trustwave Global ECC P384 Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, ST=Illinois, C=US, Key type:EC, Length:384, Cert Id:2301042373, Valid from:24/08/17, 1:06 am, Valid until:24/08/42, 1:06 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA512withRSA, Serial:21:d6:d0:4a:4f:25:0f:c9:32:37:fc:aa:5e:12:8d:e9, Subject:CN=Certum Trusted Network CA 2, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Issuer:CN=Certum Trusted Network CA 2, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Key type:RSA, Length:4096, Cert Id:1983350452, Valid from:06/10/11, 2:09 pm, Valid until:06/10/46, 2:09 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:78:8f:27:5c:81:12:52:20:a5:04:d0:2d:dd:ba:73:f4, Subject:CN=Certum EC-384 CA, OU=Certum Certification Authority, O=Asseco Data Systems S.A., C=PL, Issuer:CN=Certum EC-384 CA, OU=Certum Certification Authority, O=Asseco Data Systems S.A., C=PL, Key type:EC, Length:384, Cert Id:994586241, Valid from:26/03/18, 12:54 pm, Valid until:26/03/43, 12:54 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA1withRSA, Serial:4e:81:2d:8a:82:65:e0:0b:02:ee:3e:35:02:46:e5:3d, Subject:CN=COMODO Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:2048, Cert Id:904304908, Valid from:01/12/06, 5:30 am, Valid until:01/01/30, 5:29 am
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withRSA, Serial:00:ca:e9:1b:89:f1:55:03:0d:a3:e6:41:6d:c4:e3:a6:e1, Subject:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Issuer:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Key type:RSA, Length:4096, Cert Id:356684591, Valid from:01/10/13, 2:02 pm, Valid until:01/10/33, 2:02 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA256withECDSA, Serial:2c:29:9c:5b:16:ed:05:95, Subject:CN=SSL.com EV Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com EV Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:EC, Length:384, Cert Id:1789254518, Valid from:12/02/16, 11:45 pm, Valid until:12/02/41, 11:45 pm
+2026-09-06 23:19:00 [FINE] X509Certificate: Alg:SHA384withECDSA, Serial:62:f6:32:6c:e5:c4:e3:68:5c:1b:62:dd:9c:2e:9d:95, Subject:CN=AC RAIZ FNMT-RCM SERVIDORES SEGUROS, OID.2.5.4.97=VATES-Q2826004J, OU=Ceres, O=FNMT-RCM, C=ES, Issuer:CN=AC RAIZ FNMT-RCM SERVIDORES SEGUROS, OID.2.5.4.97=VATES-Q2826004J, OU=Ceres, O=FNMT-RCM, C=ES, Key type:EC, Length:384, Cert Id:246315697, Valid from:20/12/18, 3:07 pm, Valid until:20/12/43, 3:07 pm
+2026-09-06 23:19:01 [FINE] Skipping Selenium Manager, path to chromedriver found in system property: C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe
+2026-09-06 23:19:01 [FINE] Executing: newSession [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --disable-infobars, --headless=new, --window-size=1920,1080], extensions: []}}]}]
+2026-09-06 23:19:01 [FINE] Starting driver at C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe with [--port=31333]
+2026-09-06 23:19:01 [FINE] ProcessBuilder.start(): pid: 16152, dir: null, cmd: "C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe"
+2026-09-06 23:19:01 [FINE] Waiting for [http://localhost:31333/status]
+2026-09-06 23:19:01 [FINE] Polling http://localhost:31333/status
+2026-09-06 23:19:01 [FINE] Polling http://localhost:31333/status
+2026-09-06 23:19:01 [FINE] Polling http://localhost:31333/status
+2026-09-06 23:19:01 [FINE] sun.net.www.MessageHeader@10d7effc 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/21.0.12.1}{Host: localhost:31333}{Accept: */*}{Connection: keep-alive}
+2026-09-06 23:19:01 [FINE] sun.net.www.MessageHeader@bf0e2eb 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 249}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2026-09-06 23:19:01 [FINE] Executing request: (POST) /session
+2026-09-06 23:19:03 [FINE] Ending request (POST) /session in 1,051ms
+2026-09-06 23:19:03 [FINE] Detected upstream dialect: W3C
+2026-09-06 23:19:03 [FINE] Executed: newSession Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.83, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SIMHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59949}, goog:processID: 4748, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-09-06 23:19:03 [FINE] URI found: http://localhost:59949
+2026-09-06 23:19:03 [FINE] Executing request: (GET) /json/version
+2026-09-06 23:19:03 [FINE] Ending request (GET) /json/version in 9ms
+2026-09-06 23:19:03 [WARNING] Unable to find CDP implementation matching 152
+2026-09-06 23:19:03 [WARNING] Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-06 23:19:03 [FINE] Executing: get [080d4b19eff995717a99bea77aac3e19, get {url=https://simhadri07.github.io/automationDemoSite/}]
+2026-09-06 23:19:03 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/url
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/url in 727ms
+2026-09-06 23:19:04 [FINE] Executed: get (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [CONFIG] Launched : https://simhadri07.github.io/automationDemoSite/
+2026-09-06 23:19:04 [FINE] Executing: get [080d4b19eff995717a99bea77aac3e19, get {url=https://simhadri07.github.io/automationDemoSite/}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/url
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/url in 67ms
+2026-09-06 23:19:04 [FINE] Executed: get (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [CONFIG] Navigating to : https://simhadri07.github.io/automationDemoSite/
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 23ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:04 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@74a195a4, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 89ms
+2026-09-06 23:19:04 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 16ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:04 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 75ms
+2026-09-06 23:19:04 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:04 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@7daa61f3, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 70ms
+2026-09-06 23:19:04 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 38ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:04 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 65ms
+2026-09-06 23:19:04 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:04 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@29d37757, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 60ms
+2026-09-06 23:19:04 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:04 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 63ms
+2026-09-06 23:19:04 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 10ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:04 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@6b9c69a9, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 66ms
+2026-09-06 23:19:04 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 10ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:04 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 78ms
+2026-09-06 23:19:04 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 15ms
+2026-09-06 23:19:04 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:04 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@3c5a54b7, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:04 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 92ms
+2026-09-06 23:19:04 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:04 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:04 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 14ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 91ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 18ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@34237b90, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 85ms
+2026-09-06 23:19:05 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 26ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 74ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 12ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@7c9b78e3, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 69ms
+2026-09-06 23:19:05 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 10ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 60ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@6ad5923a, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 55ms
+2026-09-06 23:19:05 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 10ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 61ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@2e52fb3e, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 71ms
+2026-09-06 23:19:05 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 13ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 79ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 12ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@4bff2185, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 83ms
+2026-09-06 23:19:05 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 12ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:05 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 61ms
+2026-09-06 23:19:05 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:05 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=text-input, using=id}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:05 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 12ms
+2026-09-06 23:19:05 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87})
+2026-09-06 23:19:05 [FINE] Executing: sendKeysToElement [080d4b19eff995717a99bea77aac3e19, sendKeysToElement {value=[Ljava.lang.CharSequence;@2b97cc1f, id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87}]
+2026-09-06 23:19:05 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value
+2026-09-06 23:19:06 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.87/value in 73ms
+2026-09-06 23:19:06 [FINE] Executed: sendKeysToElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:06 [FINE] Executing: findElement [080d4b19eff995717a99bea77aac3e19, findElement {value=.//*[text()='Clear'], using=xpath}]
+2026-09-06 23:19:06 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element
+2026-09-06 23:19:06 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element in 11ms
+2026-09-06 23:19:06 [FINE] Executed: findElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: {element-6066-11e4-a52e-4f735466cecf=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95})
+2026-09-06 23:19:06 [FINE] Executing: clickElement [080d4b19eff995717a99bea77aac3e19, clickElement {id=f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95}]
+2026-09-06 23:19:06 [FINE] Executing request: (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click
+2026-09-06 23:19:06 [FINE] Ending request (POST) /session/080d4b19eff995717a99bea77aac3e19/element/f.31B361F9DD1399E0430ACA82D3022B0A.d.74ACC8FEBE765980C70EA932A0EF2AA3.e.95/click in 86ms
+2026-09-06 23:19:06 [FINE] Executed: clickElement (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:06 [FINE] Executing: screenshot [080d4b19eff995717a99bea77aac3e19, screenshot {}]
+2026-09-06 23:19:06 [FINE] Executing request: (GET) /session/080d4b19eff995717a99bea77aac3e19/screenshot
+2026-09-06 23:19:06 [FINE] Ending request (GET) /session/080d4b19eff995717a99bea77aac3e19/screenshot in 211ms
+2026-09-06 23:19:06 [FINE] Executed: screenshot (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: *screenshot response suppressed*)
+2026-09-06 23:19:06 [FINE] Closing websocket
+2026-09-06 23:19:06 [FINE] Sending close message, statusCode 1,000, reason: WebDriver closing socket
+2026-09-06 23:19:06 [FINE] Websocket response to org.openqa.selenium.remote.http.CloseMessage@11a7ba62 read in 3ms
+2026-09-06 23:19:06 [FINE] Closing websocket
+2026-09-06 23:19:06 [FINE] Output is closed, not sending close message
+2026-09-06 23:19:06 [FINE] Executing: quit [080d4b19eff995717a99bea77aac3e19, quit {}]
+2026-09-06 23:19:06 [FINE] Closing websocket
+2026-09-06 23:19:06 [FINE] Executing request: (DELETE) /session/080d4b19eff995717a99bea77aac3e19
+2026-09-06 23:19:06 [FINE] Ending request (DELETE) /session/080d4b19eff995717a99bea77aac3e19 in 82ms
+2026-09-06 23:19:06 [FINE] Waiting for http://localhost:31333/shutdown
+2026-09-06 23:19:06 [FINE] Polling http://localhost:31333/shutdown
+2026-09-06 23:19:06 [FINE] sun.net.www.MessageHeader@2b6cf2bc 5 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/21.0.12.1}{Host: localhost:31333}{Accept: */*}{Connection: keep-alive}
+2026-09-06 23:19:06 [FINE] sun.net.www.MessageHeader@6841a152 3 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2026-09-06 23:19:06 [FINE] completed to copy the output of process 16152
+2026-09-06 23:19:06 [FINE] Polling http://localhost:31333/shutdown
+2026-09-06 23:19:06 [FINE] Executed: quit (Response: SessionID: 080d4b19eff995717a99bea77aac3e19, State: success, Value: null)
+2026-09-06 23:19:06 [FINE] Skipping Selenium Manager, path to chromedriver found in system property: C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe
+2026-09-06 23:19:06 [FINE] Executing: newSession [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --disable-infobars, --headless=new, --window-size=1920,1080], extensions: []}}]}]
+2026-09-06 23:19:06 [FINE] Starting driver at C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe with [--port=8657]
+2026-09-06 23:19:06 [FINE] ProcessBuilder.start(): pid: 13336, dir: null, cmd: "C:\Users\simhadri chatla\.cache\selenium\chromedriver\win64\152.0.7977.82\chromedriver.exe"
+2026-09-06 23:19:06 [FINE] Waiting for [http://localhost:8657/status]
+2026-09-06 23:19:06 [FINE] Polling http://localhost:8657/status
+2026-09-06 23:19:06 [FINE] Polling http://localhost:8657/status
+2026-09-06 23:19:06 [FINE] Polling http://localhost:8657/status
+2026-09-06 23:19:06 [FINE] Polling http://localhost:8657/status
+2026-09-06 23:19:06 [FINE] sun.net.www.MessageHeader@7d23ddab 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/21.0.12.1}{Host: localhost:8657}{Accept: */*}{Connection: keep-alive}
+2026-09-06 23:19:06 [FINE] sun.net.www.MessageHeader@4d3d4eaa 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 249}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2026-09-06 23:19:06 [FINE] Executing request: (POST) /session
+2026-09-06 23:19:07 [FINE] Ending request (POST) /session in 894ms
+2026-09-06 23:19:07 [FINE] Detected upstream dialect: W3C
+2026-09-06 23:19:07 [FINE] Executed: newSession Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.83, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SIMHAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59989}, goog:processID: 16040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-09-06 23:19:07 [FINE] URI found: http://localhost:59989
+2026-09-06 23:19:07 [FINE] Executing request: (GET) /json/version
+2026-09-06 23:19:07 [FINE] Ending request (GET) /json/version in 8ms
+2026-09-06 23:19:07 [WARNING] Unable to find CDP implementation matching 152
+2026-09-06 23:19:07 [WARNING] Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-09-06 23:19:07 [FINE] Executing: get [99e23ab4dd5f3623c688b09f7a690da4, get {url=https://simhadri07.github.io/automationDemoSite/}]
+2026-09-06 23:19:07 [FINE] Executing request: (POST) /session/99e23ab4dd5f3623c688b09f7a690da4/url
+2026-09-06 23:19:08 [FINE] Ending request (POST) /session/99e23ab4dd5f3623c688b09f7a690da4/url in 716ms
+2026-09-06 23:19:08 [FINE] Executed: get (Response: SessionID: 99e23ab4dd5f3623c688b09f7a690da4, State: success, Value: null)
+2026-09-06 23:19:08 [CONFIG] Launched : https://simhadri07.github.io/automationDemoSite/
+2026-09-06 23:19:08 [FINE] Executing: get [99e23ab4dd5f3623c688b09f7a690da4, get {url=https://simhadri07.github.io/automationDemoSite/}]
+2026-09-06 23:19:08 [FINE] Executing request: (POST) /session/99e23ab4dd5f3623c688b09f7a690da4/url
+2026-09-06 23:19:08 [FINE] Ending request (POST) /session/99e23ab4dd5f3623c688b09f7a690da4/url in 78ms
+2026-09-06 23:19:08 [FINE] Executed: get (Response: SessionID: 99e23ab4dd5f3623c688b09f7a690da4, State: success, Value: null)
+2026-09-06 23:19:08 [CONFIG] Navigating to : https://simhadri07.github.io/automationDemoSite/
+2026-09-06 23:19:08 [FINE] Executing: getCurrentUrl [99e23ab4dd5f3623c688b09f7a690da4, getCurrentUrl {}]
+2026-09-06 23:19:08 [FINE] Executing request: (GET) /session/99e23ab4dd5f3623c688b09f7a690da4/url
+2026-09-06 23:19:08 [FINE] Ending request (GET) /session/99e23ab4dd5f3623c688b09f7a690da4/url in 39ms
+2026-09-06 23:19:08 [FINE] Executed: getCurrentUrl (Response: SessionID: 99e23ab4dd5f3623c688b09f7a690da4, State: success, Value: https://simhadri07.github.io/automationDemoSite/)
+2026-09-06 23:19:08 [FINE] Executing: screenshot [99e23ab4dd5f3623c688b09f7a690da4, screenshot {}]
+2026-09-06 23:19:08 [FINE] Executing request: (GET) /session/99e23ab4dd5f3623c688b09f7a690da4/screenshot

@@ -1,26 +1,43 @@
 package utilities;
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 public class propsUtils {
-        private static final String CREDENTIALS_FILE = "src/main/resources/credentials.properties";
-        private static final Properties properties;
+        private static final Properties properties = loadProperties();
 
-        static {
-            properties = new Properties();
-            try {
-                FileInputStream inputStream = new FileInputStream(CREDENTIALS_FILE);
-                properties.load(inputStream);
+        private static Properties loadProperties() {
+            Properties loaded = new Properties();
+            try (InputStream inputStream = propsUtils.class.getClassLoader()
+                    .getResourceAsStream("credentials.properties")) {
+                if (inputStream != null) {
+                    loaded.load(inputStream);
+                }
             } catch (IOException e) {
-                e.printStackTrace();
+                throw new IllegalStateException("Unable to load credentials.properties", e);
             }
+            return loaded;
+        }
+
+        private static String get(String property, String environmentVariable) {
+            String value = System.getProperty(property);
+            if (value == null || value.trim().isEmpty()) {
+                value = System.getenv(environmentVariable);
+            }
+            if (value == null || value.trim().isEmpty()) {
+                value = properties.getProperty(property);
+            }
+            if (value == null || value.trim().isEmpty()) {
+                throw new IllegalStateException(
+                        "Missing credential. Set -D" + property + " or " + environmentVariable);
+            }
+            return value;
         }
 
         public static String getUsername() {
-            return properties.getProperty("username");
+            return get("username", "TEST_USERNAME");
         }
 
         public static String getPassword() {
-            return properties.getProperty("password");
+            return get("password", "TEST_PASSWORD");
         }
     }

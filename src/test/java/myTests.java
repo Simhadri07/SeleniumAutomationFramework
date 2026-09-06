@@ -5,10 +5,19 @@ import utilities.enumFactory;
 public class myTests extends  BaseTest {
 
     @Test
-    public void test1() {
+    public void automationDemoSiteSmokeTest() {
+        new DriverFactory().NavigateToURL(enumFactory.EWebsiteName.demoURL);
+        org.testng.Assert.assertTrue(
+                driver.getCurrentUrl().contains("simhadri07.github.io/automationDemoSite"),
+                "Automation demo site did not open");
+    }
 
-        System.out.println("test case 1");
-        driver.navigate().to("https://www.google.com");
+    @Test
+    public void quickReferenceSiteSmokeTest() {
+        new DriverFactory().NavigateToURL(enumFactory.EWebsiteName.quickRefURL);
+        org.testng.Assert.assertTrue(
+                driver.getCurrentUrl().contains("cheatsheets.zip"),
+                "Quick reference site did not open");
     }
 
     @Test

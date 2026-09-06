@@ -5,7 +5,16 @@ public class enumFactory {
     public enum EBrowserName {
         CHROME,
         FIREFOX,
-        EDGE,
+        EDGE;
+
+        public static EBrowserName from(String browser) {
+            try {
+                return valueOf(browser.trim().toUpperCase());
+            } catch (IllegalArgumentException e) {
+                throw new IllegalArgumentException(
+                        "Unsupported browser '" + browser + "'. Supported browsers: chrome, edge, firefox", e);
+            }
+        }
     }
 
     public enum EWebsiteName {
@@ -13,5 +22,6 @@ public class enumFactory {
         ClaimCenter,
         BillingCenter,
         demoURL,
+        quickRefURL,
     }
 }

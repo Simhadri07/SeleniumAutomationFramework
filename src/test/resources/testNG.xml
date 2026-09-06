@@ -6,6 +6,7 @@
     <test name="MyTest">
         <classes>
             <class name="myTests"/>
+            <class name="api.ApiSmokeTest"/>
         </classes>
     </test>
 </suite>

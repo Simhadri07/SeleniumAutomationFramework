@@ -34,5 +34,16 @@ build/
 ### VS Code ###
 .vscode/
 
+# Local credentials and generated test output
+src/main/resources/credentials.properties
+target/screenshots/
+target/extent-reports/
+target/logs/
+test.log
+test.log.lck
+
 ### Mac OS ###
 .DS_Store
+
+### intellij ###
+.idea/
