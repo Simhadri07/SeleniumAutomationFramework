@@ -35,7 +35,6 @@ build/
 .vscode/
 
 # Local credentials and generated test output
-src/main/resources/credentials.properties
 target/screenshots/
 target/extent-reports/
 target/logs/
